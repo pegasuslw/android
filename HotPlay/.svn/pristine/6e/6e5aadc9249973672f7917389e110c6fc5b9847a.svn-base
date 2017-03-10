@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">HotPlay</string>
+    <string name="title">National Hot Play</string>
+    <string name="net_error_load_fail">Network connection exception, load not successful</string>
+    <string name="update">Update</string>
+</resources>

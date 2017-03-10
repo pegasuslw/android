@@ -1,0 +1,38 @@
+package com.tcl.hotplay;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import android.app.Application;
+import android.tclwidget.TCLToast;
+import android.util.Log;
+
+import com.tcl.data.HotPlayListUtil;
+import com.tcl.entity.HotPlayInfo;
+import com.tcl.util.DataCallback;
+import com.tcl.util.HttpUtil;
+import com.tcl.util.ExceptionUtil;
+
+public class MyApplication extends Application {
+	private static final String TAG = "MyApplication";
+	
+	public static long time = System.currentTimeMillis();
+	private static Application mApplication = null;
+	public static Application getInstance(){
+		return mApplication;
+	}
+	@Override
+	public void onCreate() {
+		Log.i(TAG,"onCreate()");
+		//long time = System.currentTimeMillis();
+		mApplication = this;
+		super.onCreate();
+		
+		//全局异常捕获和上报
+		ExceptionUtil.init(MyApplication.this);
+		Log.i(TAG,"ExceptionUtil.init(this); pastTime = "+(System.currentTimeMillis() - time));
+
+		Log.i(TAG,"super.onCreate(); pastTime = "+(System.currentTimeMillis() - time));
+	}
+
+}

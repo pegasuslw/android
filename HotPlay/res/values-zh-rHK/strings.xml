@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">熱播榜</string>
+    <string name="title">全國熱播榜</string>
+    <string name="net_error_load_fail">網絡異常，加載數據不成功</string>
+    <string name="update">換壹批</string>
+</resources>

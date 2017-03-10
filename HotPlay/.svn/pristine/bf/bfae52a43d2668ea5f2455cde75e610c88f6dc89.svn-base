@@ -1,0 +1,93 @@
+package com.tcl.data;
+
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.IOException;
+import java.util.Calendar;
+import java.util.HashMap;
+import java.util.Map;
+
+import android.content.Context;
+import android.content.pm.PackageInfo;
+import android.content.pm.PackageManager.NameNotFoundException;
+
+import com.tcl.hotplay.MyApplication;
+import com.tcl.util.DataCallback;
+import com.tcl.util.DataUtil;
+import com.tcl.vod.PlatformUtilsImpl;
+
+public class HotPlayDataUtil<RootType, BackType> extends DataUtil<RootType, BackType> {
+
+	protected String protocol = "http"; 
+	protected String host = "hotcast.api.my7v.com"; 
+	protected int port = 80; 
+	protected String file = ""; 
+	
+	private static Map<String, String> mDnumParamsMap=null; // 电视参数
+	
+	protected HotPlayDataUtil(){
+		File testFile=new File("/data/data/com.tcl.hotplay/test.txt"); 
+		if (testFile.exists())
+		{ 
+			try {
+				BufferedReader reader =  new BufferedReader(new FileReader(testFile));
+				String line = reader.readLine();
+				if(line!=null&&!line.isEmpty()){  
+					host = line;
+				}
+				reader.close();
+			} catch (FileNotFoundException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			} catch (IOException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+		}
+	}
+	
+	protected Object getData(String protocol,String host,int port,String file,Map<String,String> queryNamesAndValues,
+			final DataCallback<BackType> dataCallback,final String[] findNames){
+		Map<String, String> paramsMap = getDnumParams(MyApplication.getInstance());
+		if(queryNamesAndValues==null){
+			queryNamesAndValues = paramsMap;
+		}else{
+			queryNamesAndValues.putAll(paramsMap);
+		}
+		return super.getData(protocol, host, port, file, queryNamesAndValues, dataCallback, findNames);
+	}
+	
+	/**获取电视参数，存储
+	 * @param context
+	 * @return
+	 */
+	private static  Map<String, String> getDnumParams(Context context) {
+		if(mDnumParamsMap==null){
+			mDnumParamsMap = new HashMap<String, String>();
+			PlatformUtilsImpl platformUtils = new PlatformUtilsImpl();
+			mDnumParamsMap.put("language", context.getResources().getConfiguration().locale.getLanguage());
+			mDnumParamsMap.put("timezone", Calendar.getInstance().getTimeZone().getID());
+			mDnumParamsMap.put("dnum", platformUtils.getDum(context));
+			mDnumParamsMap.put("device_id", platformUtils.getDeviceId());
+			mDnumParamsMap.put("sys_version", platformUtils.getSystemVersion());
+			mDnumParamsMap.put("app_version", String.valueOf(getPackageInfo(context).versionCode));
+			mDnumParamsMap.put("client_type", platformUtils.getClientType());
+			mDnumParamsMap.put("mac", platformUtils.getMacAddress());
+			return mDnumParamsMap;
+		}
+		return mDnumParamsMap;
+	}
+	
+	private static PackageInfo getPackageInfo(Context ctx) {
+		try {
+			PackageInfo info = ctx.getPackageManager().getPackageInfo(ctx.getPackageName(), 0);
+			return info;
+		} catch (NameNotFoundException e) {
+			e.printStackTrace();
+		}
+		return null;
+	}
+	
+}

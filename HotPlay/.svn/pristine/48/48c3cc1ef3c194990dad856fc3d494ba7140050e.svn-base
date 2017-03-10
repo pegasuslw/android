@@ -1,0 +1,57 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/fruit_item"
+    android:layout_width="600dp"
+    android:layout_height="95dp"
+    android:paddingLeft="20dp"
+    android:paddingTop="10dp"
+    android:paddingRight="10dp"
+    android:paddingBottom="14dp"
+    android:orientation="horizontal"
+    android:layerType="hardware"
+    >
+    
+    <!-- 此LinearLayout配置任何layout属性都不起作用，原因是父节点不是layout -->
+	<!-- 此问题已修复，不再要求->这里要求focusable="true"，是为了促进item项的回收。这里设置是否聚焦，已经失效。因为RecyclerView已经阻止了子项目获取焦点。 -->
+    <ImageView
+        android:id="@+id/fruit_image"
+        android:layout_width="64dp"
+        android:layout_height="95dp" />
+    
+<LinearLayout
+    android:layout_width="330dp"
+    android:layout_height="wrap_content"
+    android:paddingLeft="20dp"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/fruit_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="25dp"
+        android:textColor="#ffffff"
+        android:singleLine="true" 
+        android:layerType="hardware"
+        android:ellipsize="marquee"/>
+        <TextView
+        android:id="@+id/fruit_name2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="18dp"
+        android:textColor="#ffffff"
+        android:singleLine="true" 
+        android:layerType="hardware"
+        android:ellipsize="marquee"/>
+</LinearLayout>
+    <ImageView
+        android:id="@+id/fruit_image2"
+        android:layout_width="138dp"
+        android:layout_height="95dp" />
+<!-- item中不要有吸引焦点的控件。例如button
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button" />
+-->
+</LinearLayout>

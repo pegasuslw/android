@@ -1,0 +1,73 @@
+package com.tcl.util;
+
+import java.lang.Thread.UncaughtExceptionHandler;
+import java.lang.reflect.InvocationTargetException;
+import java.lang.reflect.Method;
+import java.security.MessageDigest;
+
+import android.content.Context;
+import android.util.Log;
+
+/**异常捕获上报工具类。
+ * (形成工具类，精简原代码。)
+ * @author Ruifeng Ji
+ *
+ */
+public class ExceptionUtil {
+		private static final String TAG = "ExceptionUtil";
+		private static int mAppErrorCode;//应用错误代码，唯一标示。姜工给每一个App分配的。
+		private static final int LOG_STYLE = 0;//logcat
+		private static Context mContext;
+
+		public static void init(Context contex,int appErrorCode){
+			mContext = contex;
+			mAppErrorCode = appErrorCode;
+			//用此方法捕获整个进程中的异常		
+			Thread.setDefaultUncaughtExceptionHandler(new UncaughtExceptionHandler() {			
+				@Override                                                                
+				public void uncaughtException(Thread thread, Throwable ex) {
+					        String errorinfo = ex.getLocalizedMessage();
+							Log.d(TAG,"errorinfo=="+ errorinfo);     
+							ex.printStackTrace();
+							//在异常时调用终端管理提供的方法上报异常
+							sendReport(errorinfo);
+							//进程捕获到异常后将自己关闭	
+							android.os.Process.killProcess(android.os.Process.myPid());		
+				}
+			});
+		}
+		
+		/**
+		 * 通过反射方调用sendReport方法上报错误
+		 * */
+		private static void sendReport(String errorinfo) {
+				try {
+					Class<?> clazz = Class.forName("com.tcl.terminalmanager.ErrorReport");
+					Log.d(TAG,"Class.forName");
+					// 获取ErrorReport.getInstance(context)
+					Method mReport = clazz.getDeclaredMethod("getInstance",Context.class); 
+					Object errorReport = mReport.invoke(clazz, mContext);
+					Log.d(TAG,"getInstance");
+					// 获取 m.sendReport(errorCode, errInfo, logStyle, FileName)方法
+					Method mSendReport = clazz.getDeclaredMethod("sendReport",int.class, String.class, int.class, String.class); 
+					mSendReport.invoke(errorReport, mAppErrorCode, errorinfo,LOG_STYLE, null);
+					Log.d(TAG,"sendReport");
+				} catch (IllegalArgumentException e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				} catch (ClassNotFoundException e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				} catch (NoSuchMethodException e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				} catch (IllegalAccessException e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				} catch (InvocationTargetException e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				}
+		}
+
+}

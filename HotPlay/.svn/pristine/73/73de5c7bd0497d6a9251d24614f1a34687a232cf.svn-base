@@ -1,0 +1,64 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="38dp"
+    android:paddingBottom="0dp"
+ >
+<!-- android:background="@drawable/hotpaly" -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/title" 
+        android:textSize="45sp"
+        android:paddingLeft="66dp"
+        android:paddingBottom="34dp"
+        android:textColor="#ffffff"
+        android:layerType="hardware"/>
+<FrameLayout
+    android:id="@+id/grid_and_focus"
+    android:layout_width="match_parent"
+    android:layout_height="500dp" 
+    android:paddingBottom="10dp"
+    android:paddingLeft="46dp">
+
+    <ViewStub  
+    android:id="@+id/stub_import"  
+    android:inflatedId="@+id/stub_comm_lv"  
+    android:layout="@layout/my_recycelerview_layout" 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" />
+    <!-- ImagineView宽高参数一定要填写对。然后，下面是矩形框（x1，y1），（x2，y2）两个点 -->
+    <!-- translationX，translationY，是为了方便填写负数-->
+    <!-- android:translationX,android:translationY,paddingRight,paddingBottom。
+    这四个参数是用来代表 left,top,right,bottom-->
+    <ImageView
+        android:id="@+id/selected_rect_view"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:translationX="-29dp"
+        android:translationY="8dp"
+        android:paddingRight="553dp"
+        android:paddingBottom="107dp"
+        android:background="@drawable/focus"
+        android:layerType="hardware"
+        android:visibility="invisible" 
+/>
+    </FrameLayout>
+
+
+     <Button
+        android:id="@+id/button1"
+        android:layout_width="192dp"
+        android:layout_height="55dp"
+        android:paddingTop="0dp"
+        android:paddingBottom="0dp"
+        android:layout_gravity="center_horizontal"
+        android:textSize="20sp"
+        android:textColor="#ffffff"
+        android:layerType="hardware"
+        android:text="@string/update" 
+        android:background="@drawable/button"/> 
+
+</LinearLayout>

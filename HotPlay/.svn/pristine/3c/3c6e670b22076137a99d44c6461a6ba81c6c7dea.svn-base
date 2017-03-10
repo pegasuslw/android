@@ -1,0 +1,46 @@
+/**
+ * Copyright 2016 bejson.com 
+ */
+package com.tcl.entity;
+
+import java.util.List;
+
+/**
+ * Auto-generated: 2016-11-23 16:15:28
+ * 
+ * @author bejson.com (i@bejson.com)
+ * @website http://www.bejson.com/java2pojo/
+ */
+public class JsonRootBean {
+
+	private String errorcode;
+
+	private String description;
+
+	private Result result;
+
+	public void setErrorcode(String errorcode) {
+		this.errorcode = errorcode;
+	}
+
+	public String getErrorcode() {
+		return this.errorcode;
+	}
+
+	public void setDescription(String description) {
+		this.description = description;
+	}
+
+	public String getDescription() {
+		return this.description;
+	}
+
+	public void setResult(Result result) {
+		this.result = result;
+	}
+
+	public Result getResult() {
+		return this.result;
+	}
+
+}
