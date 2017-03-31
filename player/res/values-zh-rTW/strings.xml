@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">統一化視頻播放機</string>
+    <string name="audio_info_unknown">未知</string>
+    <string name="media_source_not_found">無法獲取媒體資源檔</string>
+    <string name="unknown_media_format">不支持該媒體檔案格式</string>
+    <string name="unknown_audio_format">該媒體檔音訊格式暫時無法支援</string>
+    <string name="unknown_video_format">該媒體檔視頻格式暫時無法支援</string>
+    <string name="media_player_exception">對不起，此片源無法播放！</string>
+    <string name="media_player_unknown_exception">對不起，此片源無法播放！</string>
+    <string name="media_player_init_error">對不起，此片源無法播放！</string>
+    <string name="media_interrupt">對不起，此片源無法播放！</string>
+    <string name="media_player_timeout">獲取資料超時，請檢查您的設備</string>
+    <string name="media_player_netUnausable">網路不可用，請檢查您的網路</string>
+    <string name="media_player_netUsable">網路已經連接！</string>
+    <string name="media_player_network_slow">Network connection timed out</string>
+    <string name="media_player_timeout_local">獲取資料超時，請檢查您的設備後重試</string>
+    <string name="media_player_listNull">播放清單為空，請重新選擇播放檔！</string>
+    <string name="media_player_not_seekable">此檔不支援快進快退！ </string>
+    <string name="Video_Info_Play">播放</string>
+    <string name="Video_Info_Pause">暫停</string>
+    <string name="Video_Info_Rewind_30S">快退</string>
+    <string name="Video_Info_FastForward_30S">快進</string>
+    <string name="Video_Info_Last_Film">上一部</string>
+    <string name="Video_Info_Next_Film">下一部</string>
+    <string name="Video_Info_RepeatMode_Normal">順序播放</string>
+    <string name="Video_Info_RepeatMode_Single">單集播放</string>
+    <string name="Video_Info_RepeatMode_Re_all">迴圈播放</string>
+    <string name="Video_Info_RepeatMode_Re_one">單集迴圈</string>
+    <string name="Video_Info_RepeatMode_Random">隨機播放</string>
+    <string name="Video_Info_Volume_adjust">音量調節</string>
+    <string name="Video_Info_Favorite">收藏</string>
+    <string name="Video_Info_Cancel_favorite">取消收藏</string>
+    <string name="Video_Info_return">返回</string>
+    <string name="Video_Info_detail">詳情</string>
+    <string name="play_break">中斷點播放</string>
+    <string name="play_begin">重新播放</string>
+    <string name="play_pos_select">選擇開始播放的位置</string>
+    <string name="SIS_Cancel">取消</string>
+    <string name="SIS_ok">確定</string>
+    <string name="breakfrom">從上一次播放的中斷點處（</string>
+    <string name="breakto">）開始播放還是重新播放？</string>
+    <string name="volumadd">+</string>
+    <string name="volumminuse">-</string>
+    <string name="volummin">0</string>
+    <string name="volummax">100</string>
+    <string name="volumChange">音量調節</string>
+    <string name="turnThree">3D模式</string>
+    <string name="fontSong">SongTi</string>
+    <string name="NoFuntion">對不起，此功能正在開發中！</string>
+    <string name="AdvancedSetTip">字幕音軌</string>
+    <string name="AdvancedSet">字幕音軌設置</string>
+    <string name="subtitle">字"　　"幕：</string>
+    <string name="subtitle_begin">字幕</string>
+    <string name="audioTrack_begin">音軌</string>
+    <string name="audioTrack">音"　　"軌：</string>
+    <string name="default_sub">無</string>
+    <string name="default_track">默認</string>
+    <string name="Tips">提示</string>
+    <string name="DefaultTime">00:00</string>
+    <string name="asking">詢問</string>
+    <string name="image">設置</string>
+    <string name="back_light">背光</string>
+    <string name="natural_light">自然光</string>
+    <string name="natural_light_open">打開</string>
+    <string name="natural_light_close">關閉</string>
+    <string name="videonothreeD">對不起，該片源不支援3D模式設置！</string>
+    <string name="videofuctionnothreeD">對不起，該模式下無法進行3D模式設置！</string>
+    <string name="isThreeD_mode_on">已打開3D功能，請進入3D設置！</string>
+    <string name="threed_no_picsetting">3D Mode is on. Please set up in 3D menu!</string>
+    <string name="audiotrack_iszero">該視頻檔中沒有音訊內容</string>
+    <string name="video_info">視頻資訊</string>
+    <string name="video_name">片名:</string>
+    <string name="video_code">格式:</string>
+    <string name="video_rate">碼率:</string>
+    <string name="video_duration">時長:</string>
+    <string name="video_resolution">解析度:</string>
+    <string name="video_size">大小:</string>
+    <string name="video_share">選擇播放設備</string>
+    <string name="videotrack_iszero">該視頻檔中沒有視頻內容!</string>
+    <string name="already_first_files">當前播放已經是第一個</string>
+    <string name="already_last_files">當前播放已經是最後一個</string>
+    <string name="voiceassistkeypressdisable">此場景不支援語音鍵</string>
+    <string name="four_k_video_notshare">4K視頻暫時無法支援分享</string>
+    <string name="presskeydowntext">查看播放清單</string>
+    <string name="presskeymenutext">查看更多選項</string>
+    
+    <string name="figure_effecttext">圖效</string>
+	<string name="sound_effecttext">音效</string>
+	<string name="cycle_modetext">迴圈模式</string>
+	<string name="picture_scaletext">畫面比例</string>
+	<string name="sand_modetext">3D模式</string>
+	<string name="subtitletext">字幕</string>
+	<string name="audio_tracktext">音軌</string>
+	<string name="fileinfotext">信息</string>
+	<string name="sharetext">分享</string>
+    
+    <string-array name="settingitems_all">
+        <item name="figure_effecttext">圖效</item>
+        <item name="sound_effecttext">音效</item>
+        <item name="cycle_modetext">迴圈模式</item>
+        <item name="picture_scaletext">畫面比例</item>
+        <item name="sand_modetext">3D模式</item>
+        <item name="subtitletext">字幕</item>
+        <item name="audio_tracktext">音軌</item>
+        <item name="sharetext">分享</item>
+        <item name="fileinfotext">信息</item>
+    </string-array>
+    
+    
+    <string-array name="settingitems_dlna">
+        <item name="figure_effecttext">圖效</item>
+        <item name="sound_effecttext">音效</item>
+        <item name="cycle_modetext">迴圈模式</item>
+        <item name="picture_scaletext">畫面比例</item>
+        <item name="sand_modetext">3D模式</item>
+        <item name="subtitletext">字幕</item>
+        <item name="audio_tracktext">音軌</item>
+        <item name="fileinfotext">信息</item>
+    </string-array>
+    
+    <!-- 設置項文字清單  圖效 -->
+    <string name="picmode_standand">標準</string>
+    <string name="picmode_vivid">明亮</string>
+    <string name="picmode_mild">柔和</string>
+    <string name="picmode_studio">影片</string>
+    <string name="picmode_user">自訂</string>
+    <!-- 音效 -->
+    <string name="soundmode_standand">標準</string>
+    <string name="soundmode_news">新聞</string>
+    <string name="soundmode_music">音樂廳</string>
+    <string name="soundmode_movie">電影院</string>
+
+    <!-- 比例模式 -->
+
+    <string name="picscale_16x9">16:9</string>
+    <string name="picscale_4x3">4:3</string>
+    <string name="picscale_full">自動</string>
+    <string name="figure_effecttext_text">圖效</string>
+    <string name="sound_effecttext_text">音效</string>
+    <string name="picture_scaletext_text">畫面比例</string>
+    <string name="cycle_modetext_text">迴圈模式</string>
+    <string name="subtitle_text">字幕</string>
+    <string name="audio_track_text">音軌</string>
+    <string name="sand_mode_text">3D模式</string>
+    <string name="fileinfo_text">信息</string>
+    <string name="share_text">分享</string>
+    <string name="setting">設置</string>
+    <string name="dialog_load">正在載入&#8230;</string>
+    
+    
+   <!--   全程語音 -->
+   
+   <string name="voice_playcotinue">繼續播放</string>
+   <string name="voice_playagain">重頭播放</string>
+   <string name="voice_jumpto">跳到</string>
+   <string name="voice_backword">後退</string>
+   <string name="voice_exit">退出</string>
+   <string name="voice_last">上一集</string>
+   <string name="voice_next">下一集</string>
+   <string name="voice_di">第</string>
+   <string name="voice_ji">集</string>
+   <string name="voice_playlist">播放清單</string>
+   <string name="voice_morelist">更多選項</string>
+   <string name="voice_list">列表</string>
+   <string name="voice_xia">下</string>
+   <string name="voice_mor">選項</string>
+   <string name="voice_menu">菜單</string>
+   <string name="voice_hour">小時</string>
+    <string name="voice_min">分鐘</string>
+     <string name="voice_sec">秒</string>
+     
+     <!-- add 838 -->
+     <string name="unmountupan">設備已移除</string>
+     <!-- add 5658 -->
+     <string name = "chaptermore"> 章節 </string>
+
+   
+   
+   
+   
+
+</resources>

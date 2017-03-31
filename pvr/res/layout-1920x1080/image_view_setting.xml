@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal">
+    
+   <LinearLayout         
+        android:layout_width="600px"
+        android:layout_height="870px"
+        android:background="@drawable/bg_menulist"
+        android:orientation="vertical"
+        android:layout_marginTop="120px"
+        android:layout_marginLeft="45px"
+        >
+        <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="58px"     
+            ></LinearLayout>
+     <ListView
+        android:id="@+id/settinglist"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:divider="@android:color/transparent"
+        android:layout_gravity="center"
+        android:dividerHeight="40px"
+        android:layout_marginLeft="13px"
+        android:layout_marginRight="13px"
+        android:listSelector="@drawable/filelistitemfocus" >
+        
+    </ListView>
+
+    </LinearLayout>
+   <FrameLayout
+        android:id="@+id/layoutdetail"
+        android:layout_width="550px"
+        android:layout_height="870px"
+        android:layout_marginTop="120px"
+        android:orientation="vertical"
+        android:visibility="gone"
+        android:layout_marginLeft="-35px"
+        android:background="@drawable/menu_item_list_bg" >
+
+        <LinearLayout
+            android:id="@+id/infodetaillayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="58px"
+            android:layout_marginRight="30px"
+            android:visibility="gone" >
+
+            <com.tcl.pvr.pvrplayer.utils.TypefaceTextView
+                android:id="@+id/TextView01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="35px"
+                android:ellipsize="marquee"
+                android:marqueeRepeatLimit="marquee_forever"
+                android:singleLine="true"
+                android:textColor="#b0b0b0"
+                android:layout_marginTop="30px"
+                android:textSize="35px" >
+            </com.tcl.pvr.pvrplayer.utils.TypefaceTextView>
+
+            <com.tcl.pvr.pvrplayer.utils.TypefaceTextView
+                android:id="@+id/TextView02"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="35px"
+                android:ellipsize="marquee"
+                android:marqueeRepeatLimit="marquee_forever"
+                android:singleLine="true"
+                android:textColor="#b0b0b0"
+                android:layout_marginTop="30px"
+                android:textSize="35px" >
+            </com.tcl.pvr.pvrplayer.utils.TypefaceTextView>
+
+            <com.tcl.pvr.pvrplayer.utils.TypefaceTextView
+                android:id="@+id/TextView03"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="35px"
+                android:ellipsize="marquee"
+                android:marqueeRepeatLimit="marquee_forever"
+                android:singleLine="true"
+                android:textColor="#b0b0b0"
+                android:layout_marginTop="30px"
+                android:textSize="35px" >
+            </com.tcl.pvr.pvrplayer.utils.TypefaceTextView>
+
+
+        </LinearLayout>
+        <LinearLayout 
+            android:id="@+id/parameterlayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:visibility="gone"
+            android:layout_marginTop="58px"
+            android:layout_marginLeft="22px"
+            android:layout_marginRight="22px"
+            >
+            <ListView 
+                android:id="@+id/paramterlist"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:listSelector="@drawable/list_item_selector"
+                android:layout_gravity="center"
+                android:dividerHeight="45px"
+                android:divider="#00000000"
+                ></ListView>
+        </LinearLayout>
+    </FrameLayout>
+</LinearLayout>

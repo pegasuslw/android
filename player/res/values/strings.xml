@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ComMediaPlayer_Video</string>
+    <string name="audio_info_unknown">Unknown</string>
+    <string name="media_source_not_found">Unable to get the media resource file</string>
+    <string name="unknown_media_format">No support for the format of media file!</string>
+    <string name="unknown_audio_format">No support for the audio format of media file!</string>
+    <string name="unknown_video_format">No support for the video format of media file!</string>
+    <string name="media_interrupt">Sorry,unable to play this media resource!</string>
+    <string name="media_player_init_error">Sorry,unable to play this media resource!</string>
+    <string name="media_player_unknown_exception">Sorry,unable to play this media resource!</string>
+    <string name="media_player_exception">Sorry,unable to play this media resource!</string>
+    <string name="media_player_timeout">Data from the network timed out, please check your
+		network!</string>
+    <string name="media_player_netUnausable">Network is unavailable, please check your network</string>
+    <string name="media_player_netUsable">Connected to network！</string>
+    <string name="media_player_network_slow">Network connection timed out</string>
+    <string name="media_player_timeout_local">Access to data timeout,please check your device and
+		try again!</string>
+    <string name="media_player_listNull">The playlist is null. Please select media files to
+		play!</string>
+    <string name="media_player_not_seekable">Unable to seek the file! </string>
+    <string name="Video_Info_Play">Play</string>
+    <string name="Video_Info_Pause">Pause</string>
+    <string name="Video_Info_Rewind_30S">Backward</string>
+    <string name="Video_Info_FastForward_30S">Forward</string>
+    <string name="Video_Info_Last_Film">Previous</string>
+    <string name="Video_Info_Next_Film">Next</string>
+    <string name="Video_Info_RepeatMode_Normal">Order</string>
+    <string name="Video_Info_RepeatMode_Single">Once</string>
+    <string name="Video_Info_RepeatMode_Re_all">Repeat All</string>
+    <string name="Video_Info_RepeatMode_Re_one">Repeat One</string>
+    <string name="Video_Info_RepeatMode_Random">Random</string>
+    <string name="Video_Info_Volume_adjust">Volume</string>
+    <string name="Video_Info_Favorite">Collection</string>
+    <string name="Video_Info_Cancel_favorite">No Collection</string>
+    <string name="Video_Info_return">Back</string>
+    <string name="Video_Info_detail">Detail</string>
+    <string name="play_break">Continue</string>
+    <string name="play_begin">Replay</string>
+    <string name="play_pos_select">Select play position</string>
+    <string name="SIS_Cancel">Cancel</string>
+    <string name="SIS_ok">Confirm</string>
+    <string name="breakfrom">Would you like to play from the last play point（</string>
+    <string name="breakto">）or from the beginning？</string>
+    <string name="volumadd">+</string>
+    <string name="volumminuse">-</string>
+    <string name="volummin">0</string>
+    <string name="volummax">100</string>
+    <string name="volumChange">Volume</string>
+    <string name="turnThree">3D Mode</string>
+    <string name="fontSong">SongTi</string>
+    <string name="NoFuntion">Sorry, the function is not available now.</string>
+    <string name="AdvancedSetTip">Sub Track</string>
+    <string name="AdvancedSet">Set Subtitle and Audio Track</string>
+    <string name="subtitle">Subtitle</string>
+    <string name="subtitle_begin">Subtitle</string>
+    <string name="audioTrack_begin">AudioTrack</string>
+    <string name="audioTrack">Audio" "Track</string>
+    <string name="default_sub">None</string>
+    <string name="default_track">Default</string>
+    <string name="Tips">Tips</string>
+    <string name="DefaultTime">00:00</string>
+    <string name="asking">Query</string>
+    <string name="image">Settings</string>
+    <string name="back_light">Backlight</string>
+    <string name="natural_light">Nature Light</string>
+    <string name="natural_light_open">Open</string>
+    <string name="natural_light_close">Close</string>
+    <string name="videonothreeD">Sorry, it do not support 3D settings!</string>
+    <string name="videofuctionnothreeD">Sorry, unable to set 3D mode!</string>
+    <string name="isThreeD_mode_on">3D is on. Please set up in 3D menu.</string>
+    <string name="threed_no_picsetting">3D Mode is on. Please set up in 3D menu!</string>
+    <string name="audiotrack_iszero">No Audio Track in this media file!</string>
+    <string name="video_info">Video Info</string>
+    <string name="video_name">Name:</string>
+    <string name="video_code">Format:</string>
+    <string name="video_rate">Video Rate:</string>
+    <string name="video_duration">Duration:</string>
+    <string name="video_resolution">Resolution:</string>
+    <string name="video_size">Size:</string>
+    <string name="video_share">Choose Playing Device</string>
+    <string name="videotrack_iszero">No Video Track in this media file!</string>
+	<string name="already_first_files">The current is already the first one.</string>
+	<string name="already_last_files">The current is already the last one.</string>
+	<string name="voiceassistkeypressdisable">Not support voice control</string>
+	<string name="four_k_video_notshare">4K video is temporarily unable to support sharing.</string>
+	<string name="presskeydowntext">View Playlist</string>
+	<string name="presskeymenutext">See more options</string>
+	<string name="figure_effecttext">Figure effect</string>
+	<string name="sound_effecttext">Sound effect</string>
+	<string name="cycle_modetext">Cycle mode</string>
+	<string name="picture_scaletext">Picture scale</string>
+	<string name="sand_modetext">3D mode</string>
+	<string name="subtitletext">Subtitles</string>
+	<string name="audio_tracktext">Audio Track</string>
+	<string name="fileinfotext">Info</string>
+	
+	<string-array name="settingitems_all" >
+	<item name="figure_effecttext">Picture mode</item>
+	<item name="sound_effecttext">Sound preset</item>
+	<item name="picture_scaletext">Aspect Ratio</item>
+	<item name="cycle_modetext">Cycle mode</item>
+    <item name="subtitletext">subtitle</item>
+	<item name="audio_tracktext">Tracks</item>
+	<item name="sand_modetext">3D mode</item>
+	<item name="fileinfotext">Info</item>
+	<item name="sharetext">Share</item>
+	</string-array>
+	
+	<string-array name="settingitems_dlna" >
+	<item name="figure_effecttext">Picture mode</item>
+	<item name="sound_effecttext">Sound preset</item>
+	<item name="picture_scaletext">Aspect Ratio</item>
+	<item name="cycle_modetext">Cycle mode</item>
+	<item name="subtitletext">subtitle</item>
+	<item name="audio_tracktext">Tracks</item>
+	<item name="sand_modetext">3D mode</item>
+	<item name="fileinfotext">Info</item>
+	</string-array>
+	
+	<!-- 设置项文字列表  图效 -->
+    <string name = "picmode_standand">Standard</string>
+    <string name = "picmode_vivid">Vivid</string>
+    <string name = "picmode_mild">Mild</string>
+    <string name = "picmode_studio">Studio</string>
+    <string name = "picmode_user">User</string>
+	<!--  音效  -->
+	<string name = "soundmode_standand">Standard</string>
+    <string name = "soundmode_news">News</string>
+    <string name = "soundmode_music">Music</string>
+    <string name = "soundmode_movie">Movie</string>
+    
+    <!-- 比例模式 -->
+    
+    <string name = "picscale_16x9"> 16:9 </string>
+    <string name = "picscale_4x3"> 4:3 </string>
+    <string name = "picscale_full">Auto</string>
+    
+    <string name="figure_effecttext_text">Picture mode</string>
+	<string name="sound_effecttext_text">Sound preset</string>
+	<string name="picture_scaletext_text">Zoom</string>
+	<string name="cycle_modetext_text">Cycle mode</string>
+    <string name="subtitle_text">Subtitle</string>
+	<string name="audio_track_text">Tracks</string>
+	<string name="sand_mode_text">3D mode</string>
+	<string name="fileinfo_text">Info</string>
+	<string name="share_text">Share</string>
+	<string name="setting">Settings</string>
+	<string name = "dialog_load">Loading&#8230;</string>		
+	<string name="dts_express">Express|5.1</string>
+    <string name="dts_master_audio">Master Audio</string>
+    
+      <!--   全程语音 -->
+   
+   <string name="voice_playcotinue">继续播放</string>
+   <string name="voice_playagain">重头播放</string>
+   <string name="voice_jumpto">跳到</string>
+   <string name="voice_backword">后退</string>
+   <string name="voice_exit">退出</string>
+   <string name="voice_last">上一集</string>
+   <string name="voice_next">下一集</string>
+   <string name="voice_di">第</string>
+   <string name="voice_ji">集</string>
+   <string name="voice_playlist">播放列表</string>
+   <string name="voice_morelist">更多选项</string>
+   <string name="voice_list">列表</string>
+   <string name="voice_xia">下</string>
+   <string name="voice_mor">选项</string>
+   <string name="voice_menu">菜单</string>
+    <string name="voice_hour">小时</string>
+    <string name="voice_min">分钟</string>
+     <string name="voice_sec">秒</string>
+     
+      <!-- add 838 -->
+     <string name="unmountupan"> The device has been removed </string>
+     
+     <!-- add 5658 -->
+     <string name = "chaptermore"> Chapter </string>
+     <string name = "hdrdialog">An HDR10 video is playing</string>
+     <string name = "hlgdialog">An HLG video is playing</string>
+     <string name = "videotransfercurve">Transfer curve</string>
+     <string name = "videocolorspace">Color space</string>
+     <string name = "videovui">VUI</string>
+</resources>
+
+ 

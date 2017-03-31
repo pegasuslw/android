@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ComMediaPlayer_Video</string>
+    <string name="audio_info_unknown">Không rõ</string>
+    <string name="media_source_not_found">Không thể lấy được tệp tin trên phương tiện</string>
+    <string name="unknown_media_format">Không hỗ trợ định dạng tệp tin phương tiện!</string>
+    <string name="unknown_audio_format">Không hỗ trợ định dạng âm thanh của tệp tin phương tiện!</string>
+    <string name="unknown_video_format">Không hỗ trợ định dạng video của tệp tin phương tiện!</string>
+    <string name="media_player_exception">Xin lỗi, không thể phát được nguồn phương tiện này!</string>
+    <string name="media_player_unknown_exception">Xin lỗi, không thể phát được nguồn phương tiện này!</string>
+    <string name="media_player_init_error">Xin lỗi, không thể phát được nguồn phương tiện này!</string>
+    <string name="media_interrupt">Xin lỗi, không thể phát được nguồn phương tiện này!</string>
+    <string name="media_player_timeout">Hết giờ gửi dữ liệu từ mạng, vui lòng kiểm tra mạng của bạn!</string>
+    <string name="media_player_netUnausable">Không có mạng, vui lòng kiểm tra mạng</string>
+    <string name="media_player_netUsable">Đã kết nối mạng!</string>
+    <string name="media_player_network_slow">Đã hết thời gian kết nối mạng</string>
+    <string name="media_player_timeout_local">Hết giờ truy cập dữ liệu, hãy kiểm tra thiết bị của bạn và thử lại!</string>
+    <string name="media_player_listNull">Danh sách phát trống không. Hãy chọn tệp tin phương tiện để phát!</string>
+    <string name="media_player_not_seekable">Không thể tìm được tệp tin! </string>
+    <string name="Video_Info_Play">Phát</string>
+    <string name="Video_Info_Pause">Tạm Dừng</string>
+    <string name="Video_Info_Rewind_30S">Tua lui</string>
+    <string name="Video_Info_FastForward_30S">Tua tới</string>
+    <string name="Video_Info_Last_Film">Trước</string>
+    <string name="Video_Info_Next_Film">Tiếp</string>
+    <string name="Video_Info_RepeatMode_Normal">Thứ tự</string>
+    <string name="Video_Info_RepeatMode_Single">Một lần</string>
+    <string name="Video_Info_RepeatMode_Re_all">Lặp lại tất cả</string>
+    <string name="Video_Info_RepeatMode_Re_one">Lặp lại một lần</string>
+    <string name="Video_Info_RepeatMode_Random">Ngẫu nhiên</string>
+    <string name="Video_Info_Volume_adjust">Âm lượng</string>
+    <string name="Video_Info_Favorite">Bộ sưu tập</string>
+    <string name="Video_Info_Cancel_favorite">Không có bộ sưu tập</string>
+    <string name="Video_Info_return">Sau</string>
+    <string name="Video_Info_detail">Thông tin</string>
+    <string name="play_break">Tiếp tục</string>
+    <string name="play_begin">Phát lại</string>
+    <string name="play_pos_select">Chọn vị trí phát</string>
+    <string name="SIS_Cancel">Hủy</string>
+    <string name="SIS_ok">Xác nhận</string>
+    <string name="breakfrom">Từ trên một lần chơi breakpoint</string>
+    <string name="breakto">Bạn muốn phát từ điểm phát gần nhất（）hay từ đầu？</string>
+    <string name="volumadd">+</string>
+    <string name="volumminuse">-</string>
+    <string name="volummin">0</string>
+    <string name="volummax">100</string>
+    <string name="volumChange">Âm lượng</string>
+    <string name="turnThree">Chế độ 3D</string>
+    <string name="fontSong">SongTi</string>
+    <string name="NoFuntion">Xin lỗi, chức năng này hiện chưa có.</string>
+    <string name="AdvancedSetTip">Rãnh phụ</string>
+    <string name="AdvancedSet">Đặt Phụ đề và Rãnh âm thanh</string>
+    <string name="subtitle">Phụ đề</string>
+    <string name="subtitle_begin">Phụ đề</string>
+    <string name="audioTrack_begin">Rãnh âm thanh</string>
+    <string name="audioTrack">Rãnh âm thanh</string>
+    <string name="default_sub">Không</string>
+    <string name="default_track">Mặc định</string>
+    <string name="Tips">Chỉ dẫn</string>
+    <string name="DefaultTime">00:00</string>
+    <string name="asking">Yêu cầu</string>
+    <string name="image">Thiết lập</string>
+    <string name="back_light">Ngược sáng</string>
+    <string name="natural_light">Sáng tự nhiên</string>
+    <string name="natural_light_open">Mở</string>
+    <string name="natural_light_close">Đóng</string>
+    <string name="videonothreeD">Xin lỗi, không hỗ trợ cài đặt 3D!</string>
+    <string name="videofuctionnothreeD">Xin lỗi, không thể đặt chế độ 3D!</string>
+    <string name="isThreeD_mode_on">3D đang bật. Hãy cài đặt trong 3D menu.</string>
+    <string name="threed_no_picsetting">Chế độ 3D đang bật. Hãy cài đặt trong 3D menu!</string>
+    <string name="audiotrack_iszero">Không có rãnh âm thanh trong tệp tin phương tiện!</string>
+    <string name="video_info">Th.tin video</string>
+    <string name="video_name">Tên:</string>
+    <string name="video_code">Định dạng lại:</string>
+    <string name="video_rate">Tốc độ video:</string>
+    <string name="video_duration">Thời lượng:</string>
+    <string name="video_resolution">Độ phân giải:</string>
+    <string name="video_size">Dung lượng:</string>
+    <string name="video_share">Chọn thiết bị phát</string>
+    <string name="videotrack_iszero">Không có rãnh video trong tệp tin phương tiện!</string>
+    <string name="already_first_files">Tệp tin hiện tại đã là đầu tiên.</string>
+    <string name="already_last_files">Tệp tin hiện tại đã là cuối cùng.</string>
+    <string name="voiceassistkeypressdisable">Không hỗ trợ điều khiển giọng nói</string>
+    <string name="four_k_video_notshare">Video 4K tạm thời không thể hỗ trợ chia sẻ.</string>
+    <string name="presskeydowntext">Phím Xuống,  xem Danh sách phát</string>
+    <string name="presskeymenutext">Phím Menu,  xem thêm tùy chọn</string>
+    
+    <string name="figure_effecttext">Hiệu ứng hình</string>
+	<string name="sound_effecttext">Hiệu ứng tiếng</string>
+	<string name="cycle_modetext">Chế độ vòng lặp</string>
+	<string name="picture_scaletext">Tỷ lệ ảnh</string>
+	<string name="sand_modetext">Chế độ 3D</string>
+	<string name="subtitletext">Phụ đề</string>
+	<string name="audio_tracktext">Rãnh âm thanh</string>
+	<string name="fileinfotext">Th.tin</string>
+	<string name="sharetext">Chia sẻ</string>
+    
+    <string-array name="settingitems_all">
+        <item name="figure_effecttext">Hiệu ứng hình</item>
+        <item name="sound_effecttext">Hiệu ứng tiếng</item>
+        <item name="cycle_modetext">Chế độ vòng lặp</item>
+        <item name="picture_scaletext">Tỷ lệ ảnh</item>
+        <item name="sand_modetext">Chế độ 3D</item>
+        <item name="subtitletext">Phụ đề</item>
+        <item name="audio_tracktext">Rãnh âm thanh</item>
+        <item name="sharetext">Chia sẻ</item>
+        <item name="fileinfotext">Th.tin</item>
+    </string-array>
+    
+    
+    <string-array name="settingitems_dlna">
+        <item name="figure_effecttext">Hiệu ứng hình</item>
+        <item name="sound_effecttext">Hiệu ứng tiếng</item>
+        <item name="cycle_modetext">Chế độ vòng lặp</item>
+        <item name="picture_scaletext">Tỷ lệ ảnh</item>
+        <item name="sand_modetext">Chế độ 3D</item>
+        <item name="subtitletext">Phụ đề</item>
+        <item name="audio_tracktext">Rãnh âm thanh</item>
+        <item name="fileinfotext">Th.tin</item>
+    </string-array>
+    
+    <!-- 设置项文字列表  图效 -->
+    <string name="picmode_standand">Tiêu chuẩn</string>
+    <string name="picmode_vivid">Sặc sỡ</string>
+    <string name="picmode_mild">Dịu</string>
+    <string name="picmode_studio">Phim</string>
+    <string name="picmode_user">Tùy chỉnh</string>
+    <!-- 音效 -->
+    <string name="soundmode_standand">Tiêu chuẩn</string>
+    <string name="soundmode_news">Tin tức</string>
+    <string name="soundmode_music">Nhạc</string>
+    <string name="soundmode_movie">Rạp chiếu phim</string>
+
+    <!-- 比例模式 -->
+
+    <string name="picscale_16x9">16:9</string>
+    <string name="picscale_4x3">4:3</string>
+    <string name="picscale_full">Tự động</string>
+    <string name="figure_effecttext_text">Chế độ hình</string>
+    <string name="sound_effecttext_text">Thiết lập trước âm thanh</string>
+    <string name="picture_scaletext_text">Tỷ lệ màn hình</string>
+    <string name="cycle_modetext_text">Chế độ tuần hoàn</string>
+    <string name="subtitle_text">Phụ đề</string>
+    <string name="audio_track_text">Các bài hát</string>
+    <string name="sand_mode_text">Mô hình 3D</string>
+    <string name="fileinfo_text">Thông tin</string>
+    <string name="share_text">Chia sẻ</string>
+    <string name="setting">Thiết lập</string>
+    <string name="dialog_load">Đang tải...</string>
+    
+    
+   <!--   全程语音 -->
+   
+   <string name="voice_playcotinue">Tiếp tục chơi</string>
+   <string name="voice_playagain">Được phát</string>
+   <string name="voice_jumpto">Nhảy xuống</string>
+   <string name="voice_backword">Lùi lại!</string>
+   <string name="voice_exit">Rút lui</string>
+   <string name="voice_last">Một tập phim</string>
+   <string name="voice_next">Bộ sưu tập tiếp theo</string>
+   <string name="voice_di">Số</string>
+   <string name="voice_ji">Tập</string>
+   <string name="voice_playlist">Danh sách phát</string>
+   <string name="voice_morelist">Tùy chọn thêm nữa</string>
+   <string name="voice_list">Danh sách</string>
+   <string name="voice_xia">Dưới</string>
+   <string name="voice_mor">Tùy chọn</string>
+   <string name="voice_menu">Thực đơn</string>
+   <string name="voice_hour">Tiếng</string>
+    <string name="voice_min">Phút</string>
+     <string name="voice_sec">Giây</string>
+     
+     <!-- add 838 -->
+     <string name="unmountupan">Thiết bị đã gỡ bỏ</string>
+     <!-- add 5658 -->
+     <string name = "chaptermore"> Chương </string>
+     <string name = "hdrdialog">Một đoạn video phát hdr10</string>
+     <string name = "hlgdialog">Một đoạn video phát HLG</string>
+     <string name = "videotransfercurve">Chuyển đường cong</string>
+     <string name = "videocolorspace">Không gian màu</string>
+     <string name = "videovui">VUI</string>   
+</resources>

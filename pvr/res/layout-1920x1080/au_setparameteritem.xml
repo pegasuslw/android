@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?><LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingTop="0dip" >
+
+    <com.tcl.pvr.pvrplayer.utils.TypefaceTextView
+        android:id="@+id/showcontentitem"
+        android:layout_width="540px"
+        android:paddingLeft="10px"
+        android:paddingTop="4px"
+        android:layout_height="50px"
+        android:ellipsize="marquee"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:singleLine="true"
+        android:textSize="35px"
+        android:textColor="@drawable/setting_itemtextcolor_selector_1" >
+    </com.tcl.pvr.pvrplayer.utils.TypefaceTextView>
+
+    
+
+</LinearLayout>

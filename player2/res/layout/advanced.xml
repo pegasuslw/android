@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:gravity="center">
+
+    <LinearLayout android:layout_width="550px" android:layout_height="210px"
+	 android:orientation="vertical">
+        
+        	<TextView android:layout_width="550px" android:id="@+id/text" android:background="@drawable/bg_settings_top"
+		android:layout_height="67px" android:text="@string/AdvancedSet"
+		android:textColor="#ebebeb" android:textSize="30px" android:gravity="center"
+		android:layout_gravity="center" />
+
+	<LinearLayout android:id="@+id/advanceMenu "  android:background="@drawable/bg_settings_bottom"
+		android:layout_width="fill_parent" android:layout_height="143px"
+		android:orientation="vertical" android:gravity="center_horizontal" >
+		<LinearLayout android:id="@+id/subtitle"  android:focusable="true" android:background="@drawable/list_item_back"
+			android:layout_width="fill_parent" android:layout_height="60px"  
+			android:orientation="horizontal"  android:gravity="center_vertical" android:paddingBottom="4px"
+			android:layout_marginTop="7px">
+			<TextView android:layout_width="220px" android:id="@+id/sub_title"
+				android:layout_height="wrap_content" android:text="@string/subtitle"
+				android:textColor="#ebebeb" android:textSize="24px" android:gravity="center" />
+
+			<ImageView android:layout_width="wrap_content"   android:gravity="center"
+				android:layout_height="wrap_content" android:src="@drawable/choose_left" />
+			<TextView android:id="@+id/sub_text" android:layout_width="230px"    
+				android:layout_height="wrap_content" android:textColor="#000000" 
+				android:textSize="24px" android:gravity="center"/>
+
+			<ImageView android:layout_width="wrap_content" 
+				android:layout_height="wrap_content" android:src="@drawable/choose_right"  />
+
+		</LinearLayout>
+		<LinearLayout android:id="@+id/audioTrack"   android:focusable="true"
+			android:layout_width="fill_parent" android:layout_height="60px"  android:background="@drawable/list_item_back"
+			android:orientation="horizontal" android:gravity="center_vertical" android:paddingBottom="4px">
+			<TextView android:layout_width="220px"  android:id="@+id/track_title"
+				android:layout_height="wrap_content" android:text="@string/audioTrack" 
+				android:textColor="#ebebeb" android:textSize="24px" android:gravity="center" />
+
+			<ImageView android:layout_width="wrap_content" 
+				android:layout_height="wrap_content" android:src="@drawable/choose_left" />
+			<TextView android:id="@+id/track_text" android:layout_width="230px" 
+				android:layout_height="wrap_content" android:textColor="#000000"  
+				android:textSize="24px" android:gravity="center" />
+
+			<ImageView android:layout_width="wrap_content" 
+				android:layout_height="wrap_content" android:src="@drawable/choose_right" />
+		</LinearLayout>
+
+
+
+	</LinearLayout>
+    </LinearLayout>
+
+
+
+
+
+
+
+</LinearLayout>

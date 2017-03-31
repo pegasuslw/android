@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center" >
+
+    <LinearLayout
+        android:layout_width="825px"
+        android:layout_height="415px"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="825px"
+            android:layout_height="100px"
+            android:layout_gravity="center"
+            android:background="@drawable/bg_settings_top"
+            android:gravity="center"
+            android:text="@string/AdvancedSet"
+            android:textColor="#ebebeb"
+            android:textSize="45px" />
+
+        <LinearLayout
+            android:id="@+id/advanceMenu "
+            android:layout_width="fill_parent"
+            android:layout_height="315px"
+            android:background="@drawable/bg_settings_bottom"
+            android:gravity="center_horizontal"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/subtitle"
+                android:layout_width="fill_parent"
+                android:layout_height="90px"
+                android:layout_marginTop="10px"
+                android:background="@drawable/list_item_back"
+                android:focusable="true"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingBottom="7px" >
+
+                <TextView
+                    android:id="@+id/sub_title"
+                    android:layout_width="330px"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/subtitle"
+                    android:textColor="#ebebeb"
+                    android:textSize="36px" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:src="@drawable/choose_left" />
+
+                <TextView
+                    android:id="@+id/sub_text"
+                    android:layout_width="345px"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textColor="#000000"
+                    android:textSize="36px" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/choose_right" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/audioTrack"
+                android:layout_width="fill_parent"
+                android:layout_height="90px"
+                android:background="@drawable/list_item_back"
+                android:focusable="true"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingBottom="7px" >
+
+                <TextView
+                    android:id="@+id/track_title"
+                    android:layout_width="330px"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/audioTrack"
+                    android:textColor="#ebebeb"
+                    android:textSize="36px" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/choose_left" />
+
+                <TextView
+                    android:id="@+id/track_text"
+                    android:layout_width="345px"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textColor="#000000"
+                    android:textSize="36px" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/choose_right" />
+            </LinearLayout>
+             <LinearLayout
+                android:id="@+id/subtitledecode"
+                android:layout_width="fill_parent"
+                android:layout_height="90px"
+                android:background="@drawable/list_item_back"
+                android:focusable="true"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingBottom="7px" >
+
+                <TextView
+                    android:id="@+id/subtitle_encode"
+                    android:layout_width="330px"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/subtitle_encode"
+                    android:singleLine="true"
+                    android:textColor="#ebebeb"
+                    android:textSize="32px" 
+                    android:ellipsize="marquee"
+                    android:marqueeRepeatLimit="marquee_forever"/>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/choose_left" />
+
+                <TextView
+                    android:id="@+id/subtitle_encode_text"
+                    android:layout_width="345px"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textColor="#000000"
+                    android:textSize="36px" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/choose_right" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

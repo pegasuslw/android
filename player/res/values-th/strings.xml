@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ComMediaPlayer_Video</string>
+    <string name="audio_info_unknown">ไม่ทราบ</string>
+    <string name="media_source_not_found">ไม่สามารถรับไฟล์แหล่งข้อมูลสื่อ</string>
+    <string name="unknown_media_format">ไม่รองรับรูปแบบไฟล์สื่อ</string>
+    <string name="unknown_audio_format">ไม่รองรับรูปแบบเสียงของไฟล์สื่อ</string>
+    <string name="unknown_video_format">ไม่รองรับรูปแบบวิดีโอของไฟล์สื่อ</string>
+    <string name="media_player_exception">ขออภัย ไม่สามารถเล่นแหล่งข้อมูลสื่อนี้!</string>
+    <string name="media_player_unknown_exception">ขออภัย ไม่สามารถเล่นแหล่งข้อมูลสื่อนี้!</string>
+    <string name="media_player_init_error">ขออภัย ไม่สามารถเล่นแหล่งข้อมูลสื่อนี้!</string>
+    <string name="media_interrupt">ขออภัย ไม่สามารถเล่นแหล่งข้อมูลสื่อนี้!</string>
+    <string name="media_player_timeout">หมดเวลาข้อมูลจากเครือข่าย โปรดตรวจสอบเครือข่าย</string>
+    <string name="media_player_netUnausable">ไม่มีการเชื่อมต่อเครือข่าย โปรดตรวจสอบเครือข่ายของคุณ</string>
+    <string name="media_player_netUsable">เชื่อมต่อเครือข่ายแล้ว!</string>
+    <string name="media_player_network_slow">หมดเวลาการเชื่อมต่อเครือข่าย</string>
+    <string name="media_player_timeout_local">หมดเวลาเข้าถึงข้อมูล โปรดตรวจสอบอุปกรณ์ของคุณแล้วลองอีกครั้ง</string>
+    <string name="media_player_listNull">เพลย์ลิสต์ว่างเปล่า โปรดเลือกไฟล์สื่อที่ต้องการเล่น!</string>
+    <string name="media_player_not_seekable">ไม่สามารถค้นหาไฟล์ </string>
+    <string name="Video_Info_Play">เล่น</string>
+    <string name="Video_Info_Pause">หยุดชั่วคราว</string>
+    <string name="Video_Info_Rewind_30S">เลื่อนหลัง</string>
+    <string name="Video_Info_FastForward_30S">เลื่อนหน้า</string>
+    <string name="Video_Info_Last_Film">ก่อนหน้า</string>
+    <string name="Video_Info_Next_Film">ถัดไป</string>
+    <string name="Video_Info_RepeatMode_Normal">ลำดับการเล่น</string>
+    <string name="Video_Info_RepeatMode_Single">ครั้งเดียว</string>
+    <string name="Video_Info_RepeatMode_Re_all">ซ้ำทั้งหมด</string>
+    <string name="Video_Info_RepeatMode_Re_one">ซ้ำ 1 ครั้ง</string>
+    <string name="Video_Info_RepeatMode_Random">เล่นแบบสุ่ม</string>
+    <string name="Video_Info_Volume_adjust">ระดับเสียง</string>
+    <string name="Video_Info_Favorite">คอลเลกชั่น</string>
+    <string name="Video_Info_Cancel_favorite">ไม่มีคอลเลกชั่น</string>
+    <string name="Video_Info_return">กลับ</string>
+    <string name="Video_Info_detail">รายละเอียด</string>
+    <string name="play_break">ดำเนินการต่อหรือไม่</string>
+    <string name="play_begin">เล่นซ้ำ</string>
+    <string name="play_pos_select">เลือกตำแหน่งเล่น</string>
+    <string name="SIS_Cancel">ยกเลิก</string>
+    <string name="SIS_ok">ยืนยัน</string>
+    <string name="breakfrom">หรือตั้งแต่ต้น</string>
+    <string name="breakto">คุณต้องการเล่นจากจุดที่เล่นล่าสุด（）หรือตั้งแต่ต้น</string>
+    <string name="volumadd">+</string>
+    <string name="volumminuse">-</string>
+    <string name="volummin">0</string>
+    <string name="volummax">100</string>
+    <string name="volumChange">ระดับเสียง</string>
+    <string name="turnThree">โหมด 3D</string>
+    <string name="fontSong">SongTi</string>
+    <string name="NoFuntion">ขออภัย ฟังก์ชั่นนี้ไม่มี</string>
+    <string name="AdvancedSetTip">ซับแทร็ค</string>
+    <string name="AdvancedSet">ตั้งค่าคำบรรยายและแทร็คเสียง</string>
+    <string name="subtitle">คำบรรยาย</string>
+    <string name="subtitle_begin">คำบรรยาย</string>
+    <string name="audioTrack_begin">แทร็ค" "เสียง</string>
+    <string name="audioTrack">แทร็ค" "เสียง</string>
+    <string name="default_sub">ไม่มี</string>
+    <string name="default_track">ค่าเริ่มต้น</string>
+    <string name="Tips">เคล็ดลับ</string>
+    <string name="DefaultTime">00:00</string>
+    <string name="asking">การสอบถาม</string>
+    <string name="image">การตั้งค่า</string>
+    <string name="back_light">ไฟพื้นหลัง</string>
+    <string name="natural_light">แสงธรรมชาติ</string>
+    <string name="natural_light_open">เปิด</string>
+    <string name="natural_light_close">ปิด</string>
+    <string name="videonothreeD">ขออภัย ไม่รองรับการตั้งค่า 3D</string>
+    <string name="videofuctionnothreeD">ขออภัย ไม่สามารถตั้งค่าโหมด 3D</string>
+    <string name="isThreeD_mode_on">3D เปิด โปรดตั้งค่าในเมนู 3D</string>
+    <string name="threed_no_picsetting">โหมด 3D เปิด โปรดตั้งค่าในเมนู 3D</string>
+    <string name="audiotrack_iszero">ไม่มีแทร็คเสียงในไฟล์สื่อนี้</string>
+    <string name="video_info">ข้อมูลวิดีโอ</string>
+    <string name="video_name">ชื่อ:</string>
+    <string name="video_code">ฟอร์แมต:</string>
+    <string name="video_rate">อัตราวิดีโอ:</string>
+    <string name="video_duration">ระยะเวลา:</string>
+    <string name="video_resolution">ความละเอียด:</string>
+    <string name="video_size">ขนาด:</string>
+    <string name="video_share">แชร์</string>
+    <string name="videotrack_iszero">ไม่มีแทร็ควิดีโอในไฟล์สื่อนี้</string>
+    <string name="already_first_files">ไฟล์ปัจจุบันคือไฟล์แรกแล้ว</string>
+    <string name="already_last_files">ไฟล์ปัจจุบันคือไฟล์สุดท้ายแล้ว</string>
+    <string name="voiceassistkeypressdisable">ไม่รองรับการควบคุมด้วยเสียง</string>
+    <string name="four_k_video_notshare">ไม่รองรับการแชร์วิดีโอ 4K ชั่วคราว</string>
+    <string name="presskeydowntext">ปุ่มลูกศรลง ดูเพลย์ลิสต์</string>
+    <string name="presskeymenutext">ปุ่มเมนู ดูตัวเลือกเพิ่มเติม</string>
+    
+    <string name="figure_effecttext">เอฟเฟกต์ภาพ</string>
+	<string name="sound_effecttext">เอฟเฟกต์เสียง</string>
+	<string name="cycle_modetext">โหมดวนรอบ</string>
+	<string name="picture_scaletext">ขนาดภาพ</string>
+	<string name="sand_modetext">โหมด 3D</string>
+	<string name="subtitletext">คำบรรยาย</string>
+	<string name="audio_tracktext">แทร็คเสียง</string>
+	<string name="fileinfotext">ข้อมูล</string>
+	<string name="sharetext">มาตรฐาน</string>
+    
+    <string-array name="settingitems_all">
+        <item name="figure_effecttext">โหมดภาพ</item>
+        <item name="sound_effecttext">กำหนดค่าเสียงไว้ล่วงหน้า</item>
+        <item name="cycle_modetext">รูปแบบวงกลม</item>
+        <item name="picture_scaletext">สัดส่วนของภาพ</item>
+        <item name="sand_modetext">โหมด 3D</item>
+        <item name="subtitletext">คำบรรยายภาพ</item>
+        <item name="audio_tracktext">แทร็คเสียง</item>
+        <item name="sharetext">แบ่งปัน</item>
+        <item name="fileinfotext">ข้อมูล</item>
+    </string-array>
+    
+    
+    <string-array name="settingitems_dlna">
+        <item name="figure_effecttext">โหมดภาพ</item>
+        <item name="sound_effecttext">กำหนดค่าเสียงไว้ล่วงหน้า</item>
+        <item name="cycle_modetext">รูปแบบวงกลม</item>
+        <item name="picture_scaletext">สัดส่วนของภาพ</item>
+        <item name="sand_modetext">โหมด 3D</item>
+        <item name="subtitletext">คำบรรยายภาพ</item>
+        <item name="audio_tracktext">แทร็คเสียง</item>
+        <item name="fileinfotext">ข้อมูล</item>
+    </string-array>
+    
+    <!-- 设置项文字列表  图效 -->
+    <string name="picmode_standand">มาตรฐาน</string>
+    <string name="picmode_vivid">สดใส</string>
+    <string name="picmode_mild">นุ่มนวล</string>
+    <string name="picmode_studio">ภาพยนตร์</string>
+    <string name="picmode_user">ที่กำหนดเอง</string>
+    <!-- 音效 -->
+    <string name="soundmode_standand">มาตรฐาน</string>
+    <string name="soundmode_news">ข่าว</string>
+    <string name="soundmode_music">ห้องดนตรี</string>
+    <string name="soundmode_movie">โรงภาพยนตร์</string>
+
+    <!-- 比例模式 -->
+
+    <string name="picscale_16x9">16:9</string>
+    <string name="picscale_4x3">4:3</string>
+    <string name="picscale_full">โดยอัตโนมัติ</string>
+    <string name="figure_effecttext_text">ประสิทธิภาพของแผนภูมิ</string>
+    <string name="sound_effecttext_text">เสียง</string>
+    <string name="picture_scaletext_text">สัดส่วนของภาพ</string>
+    <string name="cycle_modetext_text">รูปแบบวงกลม</string>
+    <string name="subtitle_text">คำบรรยายภาพ</string>
+    <string name="audio_track_text">แทร็กเสียง</string>
+    <string name="sand_mode_text">แบบ 3 มิติ</string>
+    <string name="fileinfo_text">ข้อมูล</string>
+    <string name="share_text">แบ่งปัน</string>
+    <string name="setting">การตั้งค่า</string>
+    <string name="dialog_load">กำลังโหลด</string>
+    
+    
+   <!--   全程语音 -->
+   
+   <string name="voice_playcotinue">เล่นต่อไป</string>
+   <string name="voice_playagain">เล่นเป็นครั้งแรก</string>
+   <string name="voice_jumpto">กระโดดไป</string>
+   <string name="voice_backword">เดินถอยหลัง</string>
+   <string name="voice_exit">ออก</string>
+   <string name="voice_last">ตอนสุดท้าย</string>
+   <string name="voice_next">ตอนต่อไป</string>
+   <string name="voice_di">ข้อที่</string>
+   <string name="voice_ji">คอลเลกชัน</string>
+   <string name="voice_playlist">รายการเล่น</string>
+   <string name="voice_morelist">ตัวเลือกเพิ่มเติม</string>
+   <string name="voice_list">รายชื่อ</string>
+   <string name="voice_xia">ใต้</string>
+   <string name="voice_mor">ตัวเลือก</string>
+   <string name="voice_menu">เมนู</string>
+   <string name="voice_hour">ชั่วโมง</string>
+    <string name="voice_min">นาที</string>
+     <string name="voice_sec">วินาที</string>
+     
+     <!-- add 838 -->
+     <string name="unmountupan">อุปกรณ์ที่ถูกลบ</string>
+     <!-- add 5658 -->
+     <string name = "chaptermore"> บท </string>
+     <string name = "hdrdialog">การ hdr10 วิดีโอเล่น</string>
+     <string name = "hlgdialog">การเล่นวิดีโอที่คือ</string>
+     <string name = "videotransfercurve">เส้นโค้งการถ่ายโอน</string>
+     <string name = "videocolorspace">พื้นที่สี</string>
+     <string name = "videovui">ฉาว</string>   
+</resources>

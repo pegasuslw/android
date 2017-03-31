@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ComMediaPlayer_Video</string>
+    <string name="audio_info_unknown">Inconnu</string>
+    <string name="media_source_not_found">Impossible d’obtenir le fichier de ressources multimédia</string>
+    <string name="unknown_media_format">Format du fichier multimédia incompatible !</string>
+    <string name="unknown_audio_format">Format audio du fichier multimédia incompatible !</string>
+    <string name="unknown_video_format">Format vidéo du fichier multimédia incompatible !</string>
+    <string name="media_interrupt">Désolé, impossible de lire cette ressource multimédia !</string>
+    <string name="media_player_init_error">Désolé, impossible de lire cette ressource multimédia !</string>
+    <string name="media_player_unknown_exception">Désolé, impossible de lire cette ressource multimédia !</string>
+    <string name="media_player_exception">Désolé, impossible de lire cette ressource multimédia !</string>
+    <string name="media_player_timeout">Données d’expiration du réseau, veuillez vérifier votre réseau !</string>
+    <string name="media_player_netUnausable">Réseau non disponible, veuillez vérifier votre réseau</string>
+    <string name="media_player_netUsable">Connecté au réseau !</string>
+    <string name="media_player_network_slow">Connexion réseau expirée</string>
+    <string name="media_player_timeout_local">Délai d’accès aux données expiré, vérifier votre dispositif et réessayer !</string>
+    <string name="media_player_listNull">La liste de lecture est vide. Sélectionner les fichiers multimédias à lire !</string>
+    <string name="media_player_not_seekable">Impossible de trouver le fichier !</string>
+    <string name="Video_Info_Play">Lire</string>
+    <string name="Video_Info_Pause">Pause</string>
+    <string name="Video_Info_Rewind_30S">Vers l’arrière</string>
+    <string name="Video_Info_FastForward_30S">Vers l’avant</string>
+    <string name="Video_Info_Last_Film">Précédent</string>
+    <string name="Video_Info_Next_Film">Suivant</string>
+    <string name="Video_Info_RepeatMode_Normal">Ordre</string>
+    <string name="Video_Info_RepeatMode_Single">Une fois</string>
+    <string name="Video_Info_RepeatMode_Re_all">Répéter tout</string>
+    <string name="Video_Info_RepeatMode_Re_one">Répéter une fois</string>
+    <string name="Video_Info_RepeatMode_Random">Aléatoire</string>
+    <string name="Video_Info_Volume_adjust">Volume</string>
+    <string name="Video_Info_Favorite">Collection</string>
+    <string name="Video_Info_Cancel_favorite">Pas de collection</string>
+    <string name="Video_Info_return">Retour</string>
+    <string name="Video_Info_detail">Détail</string>
+    <string name="play_break">Continuer</string>
+    <string name="play_begin">Lecture</string>
+    <string name="play_pos_select">Sélectionner la position de lecture</string>
+    <string name="SIS_Cancel">Annuler</string>
+    <string name="SIS_ok">Confirmer</string>
+    <string name="breakfrom">Voulez-vous lire à partir du dernier point de lecture (</string>
+    <string name="breakto"> ) ou du début ?</string>
+    <string name="volumadd">+</string>
+    <string name="volumminuse">-</string>
+    <string name="volummin">0</string>
+    <string name="volummax">100</string>
+    <string name="volumChange">Volume</string>
+    <string name="turnThree">Mode 3D</string>
+    <string name="fontSong">SongTi</string>
+    <string name="NoFuntion">Désolé, la fonction n’est pas disponible.</string>
+    <string name="AdvancedSetTip">Sous piste</string>
+    <string name="AdvancedSet">Définir le sous-titre et la piste audio</string>
+    <string name="subtitle">Sous-titres</string>
+    <string name="subtitle_begin">Sous-titres</string>
+    <string name="audioTrack_begin">Piste audio</string>
+    <string name="audioTrack">"Piste audio"</string>
+    <string name="default_sub">Aucun</string>
+    <string name="default_track">Défaut</string>
+    <string name="Tips">Informations</string>
+    <string name="DefaultTime">00:00</string>
+    <string name="asking">Interroger</string>
+    <string name="image">Paramètres</string>
+    <string name="back_light">Rétroéclairage</string>
+    <string name="natural_light">Lumière naturelle</string>
+    <string name="natural_light_open">Ouvrir</string>
+    <string name="natural_light_close">Fermer</string>
+    <string name="videonothreeD">Désolé, paramètres 3D incompatibles !</string>
+    <string name="videofuctionnothreeD">Désolé, impossible de définir le mode 3D !</string>
+    <string name="isThreeD_mode_on">3D activé. Effectuer la configuration dans le menu 3D.</string>
+    <string name="threed_no_picsetting">Mode 3D activé. Effectuer la configuration dans le menu 3D !</string>
+    <string name="audiotrack_iszero">Aucune piste audio dans ce fichier multimédia !</string>
+    <string name="video_info">Info vidéo</string>
+    <string name="video_name">Nom :</string>
+    <string name="video_code">Format :</string>
+    <string name="video_rate">Débit vidéo :</string>
+    <string name="video_duration">Durée :</string>
+    <string name="video_resolution">Résolution :</string>
+    <string name="video_size">Taille :</string>
+    <string name="video_share">Partager</string>
+    <string name="videotrack_iszero">Aucune piste vidéo dans ce fichier multimédia !</string>
+	<string name="already_first_files">Cette image est déjà la première.</string>
+	<string name="already_last_files">Cette image est déjà la dernière.</string>
+	<string name="voiceassistkeypressdisable">Contrôle vocal incompatible</string>
+	<string name="four_k_video_notshare">Impossible de partager temporairement la vidéo 4K.</string>
+	<string name="presskeydowntext">Touche vers le bas, Accès à la liste de lecture</string>
+	<string name="presskeymenutext">Touche Menu, voir plus d’options</string>
+	<string name="figure_effecttext">Figure effect</string>
+	<string name="sound_effecttext">Effet sonore</string>
+	<string name="cycle_modetext">Mode répétition</string>
+	<string name="picture_scaletext">Échelle d’image</string>
+	<string name="sand_modetext">Mode 3D</string>
+	<string name="subtitletext">Sous-titres</string>
+	<string name="audio_tracktext">Piste audio</string>
+	<string name="fileinfotext">Info</string>
+	
+	<string-array name="settingitems_all" >
+	<item name="figure_effecttext">Mode image</item>
+	<item name="sound_effecttext">Préréglages sonores</item>
+	<item name="picture_scaletext">Rapport d’image</item>
+	<item name="cycle_modetext">Mode répétition</item>
+    <item name="subtitletext">Sous-titres</item>
+	<item name="audio_tracktext">Pistes</item>
+	<item name="sand_modetext">Mode 3D</item>
+	<item name="fileinfotext">Info</item>
+	<item name="sharetext">Partager</item>
+	</string-array>
+	
+	<string-array name="settingitems_dlna" >
+	<item name="figure_effecttext">Mode image</item>
+	<item name="sound_effecttext">Préréglages sonores</item>
+	<item name="picture_scaletext">Rapport d’image</item>
+	<item name="cycle_modetext">Mode répétition</item>
+	<item name="subtitletext">Sous-titres</item>
+	<item name="audio_tracktext">Pistes</item>
+	<item name="sand_modetext">Mode 3D</item>
+	<item name="fileinfotext">Info</item>
+	</string-array>
+	
+	<!-- 设置项文字列表  图效 -->
+    <string name = "picmode_standand">Standard</string>
+    <string name = "picmode_vivid">Vif</string>
+    <string name = "picmode_mild">Douce</string>
+    <string name = "picmode_studio">Studio</string>
+    <string name = "picmode_user">Utilisateur</string>
+	<!--  音效  -->
+	<string name = "soundmode_standand">Standard</string>
+    <string name = "soundmode_news">Actualités</string>
+    <string name = "soundmode_music">Musique</string>
+    <string name = "soundmode_movie">Film</string>
+    
+    <!-- 比例模式 -->
+    
+    <string name = "picscale_16x9"> 16:9 </string>
+    <string name = "picscale_4x3"> 4:3 </string>
+    <string name = "picscale_full">Auto</string>
+    
+    <string name="figure_effecttext_text">Mode image</string>
+	<string name="sound_effecttext_text">Préréglages sonores</string>
+	<string name="picture_scaletext_text">Zoom</string>
+	<string name="cycle_modetext_text">Mode répétition</string>
+    <string name="subtitle_text">Sous-titres</string>
+	<string name="audio_track_text">Pistes</string>
+	<string name="sand_mode_text">Mode 3D</string>
+	<string name="fileinfo_text">Info</string>
+	<string name="share_text">Partager</string>
+	<string name="setting">Paramètres</string>
+	<string name = "dialog_load">Chargement...&#8230;</string>		
+	<string name="dts_express">Express|5.1</string>
+    <string name="dts_master_audio">Audio principal</string>
+</resources>

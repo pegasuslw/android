@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:gravity="center">
+
+    <LinearLayout android:layout_width="845px" android:layout_height="250px"
+	 android:orientation="vertical">
+        <LinearLayout 
+            android:layout_width="845px"
+            android:layout_height="wrap_content" android:background="@drawable/bg_settings_top">
+        	<TextView android:layout_width="845px" android:id="@+id/text" 
+		android:layout_height="80px" android:text="@string/image"
+		android:textColor="#ebebeb" android:textSize="45px" android:gravity="center"
+		android:layout_gravity="center"  />
+        </LinearLayout>
+	<LinearLayout android:id="@+id/advanceMenu " android:background="@drawable/bg_settings_bottom"
+		android:layout_width="fill_parent" android:layout_height="170px"
+		android:orientation="vertical"  >
+		<LinearLayout  android:id="@+id/subtitle" android:focusable="true"   android:layout_width="fill_parent" android:layout_height="82px"  
+			android:orientation="horizontal"  android:background="@drawable/list_item_back" android:layout_marginTop="20px">
+			<TextView android:layout_width="220px" android:id="@+id/backlightname"
+				android:layout_height="82px" android:text="@string/back_light"
+				android:textColor="#ebebeb" android:textSize="36px" android:gravity="center_vertical|right" />
+         <LinearLayout   
+			android:layout_width="520px" android:layout_height="82px"  
+			android:orientation="horizontal"  android:gravity="center_vertical" android:layout_marginLeft="40px" >
+			<ImageView android:layout_width="wrap_content" 
+				android:layout_height="wrap_content" android:src="@drawable/choose_left" android:layout_marginLeft="20px"/>
+			<android.tclwidget.TCLSeekBar android:id="@+id/seekbar" android:layout_width="320px"    
+				android:layout_height="wrap_content" android:layout_marginLeft="20px"
+				android:gravity="center" 
+		    />
+            <TextView  android:id="@+id/progresstext" android:layout_width="70px" android:layout_height="wrap_content" 
+                android:textSize="36px"  android:gravity="center" android:textColor="#ebebeb"/>
+			<ImageView android:layout_width="wrap_content" 
+				android:layout_height="wrap_content" android:src="@drawable/choose_right"  android:layout_marginLeft="20px"/>
+          </LinearLayout>
+		</LinearLayout>
+	
+
+
+	</LinearLayout>
+    </LinearLayout>
+
+
+
+
+
+
+
+</LinearLayout>

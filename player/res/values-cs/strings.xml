@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ComMediaPlayer_Video</string>
+    <string name="audio_info_unknown">Neznámé</string>
+    <string name="media_source_not_found">Nepodařilo se získat soubor mediálních prostředků</string>
+    <string name="unknown_media_format">Není podpora pro formát mediálních souborů!</string>
+    <string name="unknown_audio_format">Není podpora pro zvukový formát mediálního souboru!</string>
+    <string name="unknown_video_format">Není podpora pro video formát mediálního souboru!</string>
+    <string name="media_interrupt">Je nám líto, nepodařilo se nám přehrát tento mediální prostředek!</string>
+    <string name="media_player_init_error">Je nám líto, nepodařilo se nám přehrát tento mediální prostředek!</string>
+    <string name="media_player_unknown_exception">Je nám líto, nepodařilo se nám přehrát tento mediální prostředek!</string>
+    <string name="media_player_exception">Je nám líto, nepodařilo se nám přehrát tento mediální prostředek!</string>
+    <string name="media_player_timeout">Platnost dat ze sítě skončila. Zkontrolujte prosím síť!</string>
+    <string name="media_player_netUnausable">Síť není dostupná. Zkontrolujte prosím stav sítě</string>
+    <string name="media_player_netUsable">Připojeno k síti!</string>
+    <string name="media_player_network_slow">Síťové připojení vypršelo</string>
+    <string name="media_player_timeout_local">Vypršení přístupu k datům. Zkontrolujte prosím své zařízení a zkuste to znovu!</string>
+    <string name="media_player_listNull">Seznam přehrávání je prázdný. Vyberte prosím seznam mediálních souborů, které chcete přehrávat!</string>
+    <string name="media_player_not_seekable">Soubor se nepodařilo vyhledat!</string>
+    <string name="Video_Info_Play">Přehrát</string>
+    <string name="Video_Info_Pause">Pozastavit</string>
+    <string name="Video_Info_Rewind_30S">Zpět</string>
+    <string name="Video_Info_FastForward_30S">Vpřed</string>
+    <string name="Video_Info_Last_Film">Předchozí</string>
+    <string name="Video_Info_Next_Film">Další</string>
+    <string name="Video_Info_RepeatMode_Normal">Objednávka</string>
+    <string name="Video_Info_RepeatMode_Single">Jednou</string>
+    <string name="Video_Info_RepeatMode_Re_all">Opakovat vše</string>
+    <string name="Video_Info_RepeatMode_Re_one">Opakovat jedno</string>
+    <string name="Video_Info_RepeatMode_Random">Náhodné</string>
+    <string name="Video_Info_Volume_adjust">Hlasitost</string>
+    <string name="Video_Info_Favorite">Sbírka</string>
+    <string name="Video_Info_Cancel_favorite">Žádná sbírka</string>
+    <string name="Video_Info_return">Zpět</string>
+    <string name="Video_Info_detail">Podrobnosti</string>
+    <string name="play_break">Pokračovat</string>
+    <string name="play_begin">Přehrát</string>
+    <string name="play_pos_select">Vyberte polohu přehrávání</string>
+    <string name="SIS_Cancel">Zrušit</string>
+    <string name="SIS_ok">Potvrdit</string>
+    <string name="breakfrom">Chcete přehrávat od posledního přehraného bodu (</string>
+    <string name="breakto"> ) nebo od začátku?</string>
+    <string name="volumadd">+</string>
+    <string name="volumminuse">-</string>
+    <string name="volummin">0</string>
+    <string name="volummax">100</string>
+    <string name="volumChange">Hlasitost</string>
+    <string name="turnThree">Režim 3D</string>
+    <string name="fontSong">SongTi</string>
+    <string name="NoFuntion">Je nám líto, tato funkce nyní není k dispozici.</string>
+    <string name="AdvancedSetTip">Tit./stopa</string>
+    <string name="AdvancedSet">Nastavení titulků a zvukové stopy</string>
+    <string name="subtitle">Titulky</string>
+    <string name="subtitle_begin">Titulky</string>
+    <string name="audioTrack_begin">Zvuková stopa</string>
+    <string name="audioTrack">"Zvuková stopa"</string>
+    <string name="default_sub">Žádné</string>
+    <string name="default_track">Implicitní</string>
+    <string name="Tips">Tipy</string>
+    <string name="DefaultTime">00:00</string>
+    <string name="asking">Dotaz</string>
+    <string name="image">Nastavení</string>
+    <string name="back_light">Podsvícení</string>
+    <string name="natural_light">Přirozené osvětlení</string>
+    <string name="natural_light_open">Otevřeno</string>
+    <string name="natural_light_close">Zavřít</string>
+    <string name="videonothreeD">Je nám líto, toto nepodporuje nastavení 3D!</string>
+    <string name="videofuctionnothreeD">Je nám líto, nepodařilo se nastavit režim 3D!</string>
+    <string name="isThreeD_mode_on">3D je zapnuto. Nastavte jej prosím v menu 3D.</string>
+    <string name="threed_no_picsetting">Režim 3D je zapnutý. Nastavte jej prosím v menu 3D!</string>
+    <string name="audiotrack_iszero">V tomto mediálním souboru není zvuková stopa!</string>
+    <string name="video_info">Informace videa</string>
+    <string name="video_name">Název:</string>
+    <string name="video_code">Formát:</string>
+    <string name="video_rate">Video frekvence:</string>
+    <string name="video_duration">Trvání:</string>
+    <string name="video_resolution">Rozlišení:</string>
+    <string name="video_size">Velikost:</string>
+    <string name="video_share">Sdílet</string>
+    <string name="videotrack_iszero">V tomto mediálním souboru není žádná video stopa!</string>
+	<string name="already_first_files">Aktuální snímek je již první.</string>
+	<string name="already_last_files">Aktuální snímek je již poslední.</string>
+	<string name="voiceassistkeypressdisable">Není podpora ovládání hlasu</string>
+	<string name="four_k_video_notshare">Video 4K je dočasně neschopno podporovat sdílení.</string>
+	<string name="presskeydowntext">Klávesa Dolů, zobrazit seznam skladeb</string>
+	<string name="presskeymenutext">Klávesa menu, zobrazí více možností</string>
+	<string name="figure_effecttext">Figure effect</string>
+	<string name="sound_effecttext">Zvukový efekt</string>
+	<string name="cycle_modetext">Cyklický režim</string>
+	<string name="picture_scaletext">Škála obrázku</string>
+	<string name="sand_modetext">Režim 3D</string>
+	<string name="subtitletext">Titulky</string>
+	<string name="audio_tracktext">Zvuková stopa</string>
+	<string name="fileinfotext">Informace</string>
+	
+	<string-array name="settingitems_all" >
+	<item name="figure_effecttext">Režim obrázků</item>
+	<item name="sound_effecttext">Sound preset</item>
+	<item name="picture_scaletext">Aspect Ratio</item>
+	<item name="cycle_modetext">Cycle mode</item>
+    <item name="subtitletext">subtitle</item>
+	<item name="audio_tracktext">Tracks</item>
+	<item name="sand_modetext">3D mode</item>
+	<item name="fileinfotext">Info</item>
+	<item name="sharetext">Share</item>
+	</string-array>
+	
+	<string-array name="settingitems_dlna" >
+	<item name="figure_effecttext">Picture mode</item>
+	<item name="sound_effecttext">Sound preset</item>
+	<item name="picture_scaletext">Aspect Ratio</item>
+	<item name="cycle_modetext">Cycle mode</item>
+	<item name="subtitletext">subtitle</item>
+	<item name="audio_tracktext">Tracks</item>
+	<item name="sand_modetext">3D mode</item>
+	<item name="fileinfotext">Info</item>
+	</string-array>
+	
+	<!-- 设置项文字列表  图效 -->
+    <string name = "picmode_standand">Standard</string>
+    <string name = "picmode_vivid">Vivid</string>
+    <string name = "picmode_mild">Mild</string>
+    <string name = "picmode_studio">Studio</string>
+    <string name = "picmode_user">User</string>
+	<!--  音效  -->
+	<string name = "soundmode_standand">Standard</string>
+    <string name = "soundmode_news">News</string>
+    <string name = "soundmode_music">Music</string>
+    <string name = "soundmode_movie">Movie</string>
+    
+    <!-- 比例模式 -->
+    
+    <string name = "picscale_16x9"> 16:9 </string>
+    <string name = "picscale_4x3"> 4:3 </string>
+    <string name = "picscale_full">Auto</string>
+    
+    <string name="figure_effecttext_text">Picture mode</string>
+	<string name="sound_effecttext_text">Sound preset</string>
+	<string name="picture_scaletext_text">Zoom</string>
+	<string name="cycle_modetext_text">Cycle mode</string>
+    <string name="subtitle_text">Subtitle</string>
+	<string name="audio_track_text">Tracks</string>
+	<string name="sand_mode_text">3D mode</string>
+	<string name="fileinfo_text">Info</string>
+	<string name="share_text">Share</string>
+	<string name="setting">Settings</string>
+	<string name = "dialog_load">Loading&#8230;</string>		
+	<string name="dts_express">Express|5.1</string>
+    <string name="dts_master_audio">Master Audio</string>
+</resources>

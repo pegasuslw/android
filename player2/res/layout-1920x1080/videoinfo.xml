@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:gravity="center">
+
+    <LinearLayout android:layout_width="845px" android:layout_height="wrap_content"
+	 android:orientation="vertical">
+        
+        	<TextView android:layout_width="845px" android:id="@+id/text" android:background="@drawable/bg_settings_top"
+		android:layout_height="80px" android:text="@string/video_info"
+		android:textColor="#ebebeb" android:textSize="45px" android:gravity="center"
+		android:layout_gravity="center" />
+
+	<LinearLayout android:id="@+id/advanceMenu " android:background="@drawable/bg_settings_bottom"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:orientation="vertical" android:gravity="center_horizontal" >
+		<LinearLayout  android:layout_width="fill_parent" android:layout_height="82px"  
+			android:orientation="horizontal"  >
+			<TextView android:layout_width="220px" 
+				android:layout_height="82px" android:text="@string/video_name"
+				android:textColor="#ebebeb" android:textSize="36px" android:gravity="center_vertical|right" />
+            <TextView  android:id="@+id/info_videoname" android:layout_width="fill_parent" android:layout_height="wrap_content" 
+                android:textSize="36px"  android:gravity="center" android:textColor="#ebebeb" 
+                android:singleLine="true" android:ellipsize="marquee" android:text="@string/audio_info_unknown" android:layout_marginLeft="50px"
+                android:layout_marginRight="50px"/>
+		</LinearLayout>
+		<LinearLayout  android:layout_width="fill_parent" android:layout_height="82px"  
+			android:orientation="horizontal"  >
+			<TextView android:layout_width="220px" 
+				android:layout_height="82px" android:text="@string/video_size"
+				android:textColor="#ebebeb" android:textSize="36px" android:gravity="center_vertical|right" />
+            <TextView  android:id="@+id/info_videosize" android:layout_width="fill_parent" android:layout_height="wrap_content" 
+                android:textSize="36px"  android:gravity="center" android:textColor="#ebebeb" 
+                android:singleLine="true" android:ellipsize="marquee" android:text="@string/audio_info_unknown" android:layout_marginLeft="50px"
+                android:layout_marginRight="50px"/>
+        </LinearLayout>
+		<LinearLayout  android:layout_width="fill_parent" android:layout_height="82px"  
+			android:orientation="horizontal"  >
+			<TextView android:layout_width="220px" 
+				android:layout_height="82px" android:text="@string/video_code"
+				android:textColor="#ebebeb" android:textSize="36px" android:gravity="center_vertical|right" />
+            <TextView  android:id="@+id/info_videocode" android:layout_width="fill_parent" android:layout_height="wrap_content" 
+                android:textSize="36px"  android:gravity="center" android:textColor="#ebebeb" 
+                android:singleLine="true" android:ellipsize="marquee" android:text="@string/audio_info_unknown" android:layout_marginLeft="50px"
+                android:layout_marginRight="50px"/>
+		</LinearLayout>
+		<LinearLayout  android:layout_width="fill_parent" android:layout_height="82px"  
+			android:orientation="horizontal"  android:visibility="gone"  >
+			<TextView android:layout_width="220px" 
+				android:layout_height="82px" android:text="@string/video_rate"
+				android:textColor="#ebebeb" android:textSize="36px" android:gravity="center_vertical|right" />
+            <TextView  android:id="@+id/info_videorate" android:layout_width="fill_parent" android:layout_height="wrap_content" 
+                android:textSize="36px"  android:gravity="center" android:textColor="#ebebeb" 
+                android:singleLine="true" android:ellipsize="marquee" android:text="@string/audio_info_unknown" android:layout_marginLeft="50px"
+                android:layout_marginRight="50px"/>
+		</LinearLayout>
+		
+
+		<LinearLayout  android:layout_width="fill_parent" android:layout_height="82px"  
+			android:orientation="horizontal"  >
+			<TextView android:layout_width="220px" 
+				android:layout_height="82px" android:text="@string/video_resolution"
+				android:textColor="#ebebeb" android:textSize="36px" android:gravity="center_vertical|right" />
+            <TextView  android:id="@+id/info_videoresolution" android:layout_width="fill_parent" android:layout_height="wrap_content" 
+                android:textSize="36px"  android:gravity="center" android:textColor="#ebebeb" 
+                android:singleLine="true" android:ellipsize="marquee" android:text="@string/audio_info_unknown" android:layout_marginLeft="50px"
+                android:layout_marginRight="50px"/>
+		</LinearLayout>
+		
+		
+	
+
+
+	</LinearLayout>
+    </LinearLayout>
+
+
+
+
+
+
+
+</LinearLayout>

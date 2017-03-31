@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<drawable name="translucent_background">#e0000000</drawable>
+	<drawable name="transparent_background">#00000000</drawable>
+	<color name="white">#ffffff</color>
+
+	<color name="yellow">#FFFF00</color>
+	<color name="none">#00ffffff</color>
+	<color name="translucent_dark">#99000000</color>
+	<color name="translucenter_dark">#00000000</color>
+    <color name="transparent_background">#00000000</color>
+    
+	<color name="calendar_delete_dialog_text_color">#ffffff</color>
+	<color name="transparent">#80000000</color>
+	<color name="bright_foreground_dark">#ffffffff</color>
+	<color name="bright_foreground_dark_disabled">#80ffffff</color>
+	<color name="bright_foreground_dark_inverse">#ff000000</color>
+	<color name="dim_foreground_dark">#bebebe</color>
+	<color name="dim_foreground_dark_disabled">#80bebebe</color>
+	<color name="dim_foreground_dark_inverse">#323232</color>
+	<color name="dim_foreground_dark_inverse_disabled">#80323232</color>
+	<color name="bright_foreground_light">#ff000000</color>
+	<color name="bright_foreground_light_inverse">#ffffffff</color>
+	<color name="bright_foreground_light_disabled">#80000000</color>
+	<color name="dim_foreground_light">#323232</color>
+	<color name="dim_foreground_light_disabled">#80323232</color>
+	<color name="dim_foreground_light_inverse">#bebebe</color>
+	<color name="dim_foreground_light_inverse_disabled">#80bebebe</color>
+	<color name="bright_blue">#ff00e4ff</color>
+	<color name="black">#000000</color>
+	<color name="filename_focus">#00E4FF</color>
+	<color name="filename_not_focus">#FFFFFF</color>
+	<color name="text_color_dark">#ff000000</color>
+    <color name="text_color_disabled">#ff666666</color>
+	<color name="trans">#00000000</color>
+	<color name="rulecolor">#ff1e1d1d</color>
+	<color name="translucent">#00000000</color>
+	<color name="ui_textcolor">#ebebeb</color>
+	<color name="music_bg">#050919</color>
+	<color name="bg">#ff14161A</color>
+	<color name ="setting_item_text_normal">#757b81</color>
+</resources>

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="hello">Xin chào World, MediaPlayer!</string>
+	<string name="app_name">MediaPlayer</string>
+
+	<string name="video_volume_adjust">Âm lượng</string>
+	<string name="audio_info_disc">Đã thuộc về album:</string>
+	<string name="audio_info_songster">Ca sĩ:</string>
+	<string name="audio_info_genor">Trường phái:</string>
+	<string name="audio_info_unknown">Không rõ</string>
+
+	<string name="audio_info_no_lylic">Không tìm thấy lời bài hát</string>
+
+	<string name="media_source_not_found">Không thể lấy được tệp tin trên phương tiện</string>
+
+	<string name="unknown_media_format">Không hỗ trợ định dạng tệp tin phương tiện</string>
+
+	<string name="unknown_audio_format">Không hỗ trợ định dạng âm thanh của tệp tin phương tiện</string>
+
+	<string name="unknown_video_format">Không hỗ trợ định dạng video của tệp tin phương tiện!</string>
+	
+	<string name="media_interrupt">Xin lỗi, không thể phát được nguồn phương tiện này!</string>
+	
+	<string name="media_player_network_slow">Đã hết thời gian kết nối mạng</string>
+	<string name="media_player_exception">Xin lỗi, không thể phát được nguồn phương tiện này!</string>
+	<string name="media_player_init_error">Xin lỗi, không thể phát được nguồn phương tiện này!</string>
+	<string name="media_player_unknown_exception">Xin lỗi, không thể phát được nguồn phương tiện này!</string>
+	<string name="media_player_timeout">Lấy dữ liệu từ mạng thời hạn, hãy kiểm tra xem mạng của bạn</string>
+	<string name="media_player_netUnausable">Không có mạng, vui lòng kiểm tra mạng</string>
+	<string name="media_player_netUsable">Đã kết nối mạng!</string>
+	<string name="media_player_timeout_local">Lấy dữ liệu thời hạn, hãy kiểm tra thiết bị của bạn. Hãy thử lại sau.</string>
+
+	<string name="media_player_listNull">Danh sách phát rỗng, hãy chọn lại tập tin nhạc!</string>
+	<string name="media_player_not_seekable">Không thể tìm được tệp tin!</string>
+	<string name="music_service_started">Dịch vụ âm nhạc bắt đầu</string>
+	<string name="local_service_label">Dịch vụ âm nhạc địa phương</string>
+
+	<string name="Video_Info_Play">Phát</string>
+	<string name="Video_Info_Pause">Tạm Dừng</string>
+	<string name="Video_Info_Rewind_30S">Tua lui</string>
+	<string name="Video_Info_FastForward_30S">Tua tới</string>
+	<string name="Video_Info_Last_Film">Trước</string>
+	<string name="Video_Info_Next_Film">Tiếp</string>
+	<string name="Video_Info_RepeatMode_Normal">Thứ tự</string>
+	<string name="Video_Info_RepeatMode_Single">Một lần</string>
+	<string name="Video_Info_RepeatMode_Re_all">Lặp lại tất cả</string>
+	<string name="Video_Info_RepeatMode_Re_one">Lặp lại một lần</string>
+	<string name="Video_Info_RepeatMode_Random">Ngẫu nhiên</string>
+	<string name="Video_Info_Volume_adjust">Âm lượng</string>
+	<string name="Video_Info_Favorite">Bộ sưu tập</string>
+	<string name="Video_Info_Cancel_favorite">Không có bộ sưu tập</string>
+	<string name="Video_Info_return">Sau</string>
+	<string name="Video_Info_detail">Thông tin</string>
+
+	<string name="Audio_Info_Play">Phát</string>
+	<string name="Audio_Info_Pause">Tạm Dừng</string>
+	<string name="Audio_Info_Rewind_FiveS">Tua lui</string>
+	<string name="Audio_Info_FastForward_FiveS">Tua tới</string>
+	<string name="Audio_Info_Last_Film">Trước</string>
+	<string name="Audio_Info_Next_Film">Tiếp</string>
+	<string name="Audio_Info_RepeatMode_Normal">Thứ tự</string>
+	<string name="Audio_Info_RepeatMode_Single">Một lần</string>
+	<string name="Audio_Info_RepeatMode_Re_all">Lặp lại tất cả</string>
+	<string name="Audio_Info_RepeatMode_Re_one">Lặp lại một lần</string>
+	<string name="Audio_Info_RepeatMode_Random">Ngẫu nhiên</string>
+	<string name="Audio_Info_Volume_adjust">Âm lượng</string>
+	<string name="Audio_Info_Lyc">Hiển thị lời bài hát</string>
+	<string name="Audio_Info_Cancel_Lyc">Hủy bỏ lời bài hát</string>
+	<string name="Audio_Info_return">Quay trở lại</string>
+
+	<string name="play_break">Tiếp tục</string>
+	<string name="play_begin">Phát lại</string>
+	<string name="play_pos_select">Chọn vị trí phát</string>
+	<string name="SIS_Cancel">Hủy</string>
+	<string name="SIS_ok">Xác nhận</string>
+	<string name="breakfrom">Từ trên một lần chơi</string>
+	<string name="breakto">Bạn muốn phát từ điểm phát gần nhất（）hay từ đầu？</string>
+	
+	<string name="volumadd">+</string>
+   	<string name="volumminuse">-</string>
+	<string name="volummin">0</string>
+	<string name="volummax">100</string>
+	<string name="volumChange">Âm lượng</string>
+	<string name="turnThree">Chế độ 3D</string> 
+	<string name="fontSong">SongTi</string>
+	<string name="NoFuntion">Xin lỗi, chức năng này hiện chưa có.</string>
+	<string name="AdvancedSetTip">Rãnh phụ</string>
+	<string name="AdvancedSet">Đặt Phụ đề và Rãnh âm thanh</string>
+	<string name="subtitle">Phụ đề：</string>
+	<string name="subtitle_begin">Phụ đề</string>
+	<string name="audioTrack_begin">Rãnh âm thanh</string>
+	<string name="audioTrack">Rãnh âm thanh：</string>
+	<string name="default_sub">Không</string>
+	<string name="default_track">Mặc định</string>
+	<string name="Tips">Chỉ dẫn</string>
+	<string name="DefaultTime">00:00</string>
+	<string name="image">Ảnh</string>
+	<string name="back_light">Ngược sáng:</string>
+	<string name="natural_light">Sáng tự nhiên:</string>
+	<string name="natural_light_open">Mở</string>
+	<string name="natural_light_close">Đóng</string>
+	<string name="videonothreeD">Xin lỗi, không hỗ trợ cài đặt 3D!</string>
+	<string name="videofuctionnothreeD">Xin lỗi, không thể đặt chế độ 3D!</string>
+	<string name="isThreeD_mode_on">3D đang bật. Hãy cài đặt trong 3D menu.</string>
+	<string name="audiotrack_iszero">Không có rãnh âm thanh trong tệp tin phương tiện!</string>
+	<string name="video_info">Th.tin video</string>
+	<string name="video_name">Tên:</string>
+	<string name="video_code">Định dạng lại:</string>
+	<string name="video_rate">Tốc độ video:</string>
+	<string name="video_duration">Thời lượng:</string>
+	<string name="video_resolution">Độ phân giải:</string>
+	<string name="video_size">Dung lượng:</string>
+	<string name="audio_only">Chỉ nghe</string>
+	<string name="audio_info">Thông tin về âm nhạc</string>
+	<string name="play_mode">Chế độ phát</string>
+	<string name="play_pic_mode">Hiện chế độ tỷ lệ</string>
+	<string name="video_standard">Tiêu chuẩn</string>
+	<string name="video_dynamic">Dynamic</string>
+	<string name="video_studio">Âm</string>
+	<string name="video_movie">Phim</string>
+	<string name="video_personal">Người</string>
+	<string name="video_date">Ngày:</string>
+			    
+
+				
+</resources>

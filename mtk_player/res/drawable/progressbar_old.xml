@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+        <!-- 背景图 -->
+
+        <item android:id="@+android:id/secondaryProgress_old"
+                android:drawable="@drawable/video_player_seekbar"  >
+        </item>
+
+        <!--全部能量图  -->
+        
+        <item android:id="@+android:id/progress_old" >
+                <clip android:drawable="@drawable/video_player_thumb"
+                      />
+        </item>
+        
+        <!-- 进和能量图 -->
+        <!-- 
+        <item android:id="@+android:id/progress" 
+                  android:drawable="@drawable/seek_bar"
+                  android:layout_height="10dip" />
+        -->
+</layer-list>

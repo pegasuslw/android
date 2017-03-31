@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal">
+    
+    <LinearLayout         
+        android:layout_width="380dp"
+        android:layout_height="fill_parent"
+        android:background="@drawable/au_settingbg"
+        android:orientation="vertical"
+        >
+        <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="85dp"     
+            ></LinearLayout>
+     <ListView
+        android:id="@+id/settinglist"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:divider="@android:color/transparent"
+        android:layout_gravity="center"
+        android:dividerHeight="20dp"
+        android:listSelector="@drawable/list_item_back" >
+        
+    </ListView>
+    </LinearLayout>
+   <FrameLayout
+        android:id="@+id/layoutdetail"
+        android:layout_width="400dp"
+        android:layout_height="fill_parent"
+        android:layout_gravity="left"
+        android:orientation="vertical"
+        android:visibility="gone"
+        android:background="@drawable/au_settingbg" >
+
+        <LinearLayout
+            android:id="@+id/infodetaillayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="85dp"
+            android:orientation="vertical"
+            android:visibility="gone" >
+
+            <TextView
+                android:id="@+id/TextView01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:ellipsize="marquee"
+                android:marqueeRepeatLimit="marquee_forever"
+                android:singleLine="true"
+                android:textColor="#b0b0b0"
+                android:layout_marginTop="20dp"
+                android:textSize="24sp" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/TextView02"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:ellipsize="marquee"
+                android:marqueeRepeatLimit="marquee_forever"
+                android:singleLine="true"
+                android:textColor="#b0b0b0"
+                android:layout_marginTop="20dp"
+                android:textSize="24sp" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/TextView03"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:ellipsize="marquee"
+                android:marqueeRepeatLimit="marquee_forever"
+                android:singleLine="true"
+                android:textColor="#b0b0b0"
+                android:layout_marginTop="20dp"
+                android:textSize="24sp" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/TextView04"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:ellipsize="marquee"
+                android:marqueeRepeatLimit="marquee_forever"
+                android:singleLine="true"
+                android:textColor="#b0b0b0"
+                android:layout_marginTop="20dp"
+                android:textSize="24sp" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/TextView05"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:ellipsize="marquee"
+                android:marqueeRepeatLimit="marquee_forever"
+                android:singleLine="true"
+                android:textColor="#b0b0b0"
+                android:layout_marginTop="20dp"
+                android:textSize="24sp" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/TextView06"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="15dp"
+                android:ellipsize="marquee"
+                android:marqueeRepeatLimit="marquee_forever"
+                android:singleLine="true"
+                android:textColor="#b0b0b0"
+                android:layout_marginTop="20dp"
+                android:textSize="28dp" 
+                android:textStyle="italic">
+            </TextView>
+        </LinearLayout>
+        <LinearLayout 
+            android:id="@+id/parameterlayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:visibility="gone"
+            android:layout_marginTop="85dp"
+            >
+            <ListView 
+                android:id="@+id/paramterlist"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:listSelector="@drawable/list_item_back"
+                android:layout_gravity="center"
+                android:dividerHeight="20dp"
+                android:divider="#00000000"
+                ></ListView>
+        </LinearLayout>
+    </FrameLayout>
+</LinearLayout>

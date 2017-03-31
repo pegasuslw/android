@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="hello">Hello World, MediaPlayer!</string>
+	<string name="app_name">Медиа</string>
+
+	<string name="video_volume_adjust">Звук</string>
+	<string name="audio_info_disc">Альбом：</string>
+	<string name="audio_info_songster">Исполнитель：</string>
+	<string name="audio_info_genor">Жанр：</string>
+	<string name="audio_info_unknown">Неизвестный</string>
+
+	<string name="audio_info_no_lylic">Текст не найден</string>
+
+	<string name="media_source_not_found">Невозможно найти источник медиа файла</string>
+
+	<string name="unknown_media_format">Формат медиа файла не поддерживается !</string>
+
+	<string name="unknown_audio_format">Аудио формат медиа файла не поддерживается !</string>
+
+	<string name="unknown_video_format">Видео формат медиа файла не поддерживается !</string>
+	
+	<string name="media_interrupt">К сожалению, данный источник мультимедиа невозможно воспроизвести!</string>
+	
+	<string name="media_player_network_slow">Время окончания соединения сети</string>
+<string name="media_player_exception">К сожалению, данный источник мультимедиа невозможно воспроизвести!</string>
+<string name="media_player_init_error">К сожалению, данный источник мультимедиа невозможно воспроизвести!</string>
+	<string name="media_player_unknown_exception">К сожалению, данный источник мультимедиа невозможно воспроизвести!</string>
+	<string name="media_player_timeout">Время ожидания данных сети истекло, пожалуйста, проверьте сеть!</string>
+	<string name="media_player_netUnausable">Сеть недоступна, пожалуйста, проверьте вашу сеть</string>
+	<string name="media_player_netUsable">Сеть подключена!</string>
+	<string name="media_player_timeout_local">Время получения данных истекло, пожалуйста, проверьте ваше устройство и попробуйте снова !</string>
+
+	<string name="media_player_listNull">Плейлист пуст, пожалуйста, выберите медиа файлы для проигрывания!</string>
+	  <string name="media_player_not_seekable">Файл не найден!</string>
+	<string name="music_service_started">Music Service started</string>
+	<string name="local_service_label">Local Music Service</string>
+
+	<string name="Video_Info_Play">Проигрывание</string>
+	<string name="Video_Info_Pause">Пауза</string>
+	<string name="Video_Info_Rewind_30S">Назад</string>
+	<string name="Video_Info_FastForward_30S">Вперед</string>
+	<string name="Video_Info_Last_Film">Предыдущий</string>
+	<string name="Video_Info_Next_Film">Следующий</string>
+	<string name="Video_Info_RepeatMode_Normal">Порядок</string>
+	<string name="Video_Info_RepeatMode_Single">Один раз</string>
+	<string name="Video_Info_RepeatMode_Re_all">Повторить все</string>
+	<string name="Video_Info_RepeatMode_Re_one">Повторить один</string>
+	<string name="Video_Info_RepeatMode_Random">В случайном порядке</string>
+	<string name="Video_Info_Volume_adjust">Звук</string>
+	<string name="Video_Info_Favorite">Коллекция</string>
+	<string name="Video_Info_Cancel_favorite">Коллекция отстуствует</string>
+	<string name="Video_Info_return">Назад</string>
+	<string name="Video_Info_detail">Подробно</string>
+
+	<string name="Audio_Info_Play">Проигрывание</string>
+	<string name="Audio_Info_Pause">Пауза</string>
+	<string name="Audio_Info_Rewind_FiveS">Назад</string>
+	<string name="Audio_Info_FastForward_FiveS">Вперед</string>
+	<string name="Audio_Info_Last_Film">Предыдущий</string>
+	<string name="Audio_Info_Next_Film">Следующий</string>
+	<string name="Audio_Info_RepeatMode_Normal">Порядок</string>
+	<string name="Audio_Info_RepeatMode_Single">Один раз</string>
+	<string name="Audio_Info_RepeatMode_Re_all">Повторить все</string>
+	<string name="Audio_Info_RepeatMode_Re_one">Повторить один</string>
+	<string name="Audio_Info_RepeatMode_Random">В случайном порядке</string>
+	<string name="Audio_Info_Volume_adjust">Звук</string>
+	<string name="Audio_Info_Lyc">Показать песен</string>
+	<string name="Audio_Info_Cancel_Lyc">Уволить текст</string>
+	<string name="Audio_Info_return">Назад</string>
+
+	<string name="play_break">Продолжить</string>
+	<string name="play_begin">Повторное проигрывание</string>
+	<string name="play_pos_select">Выберите позицию воспроизведения</string>
+	<string name="SIS_Cancel">Отмена</string>
+	<string name="SIS_ok">Подтвердить</string>
+	<string name="breakfrom">Продолжить проигрывание с места остановки</string>
+	<string name="breakto">）или с начала？</string>
+	
+	    <string name="volumadd">+</string>
+    <string name="volumminuse">-</string>
+        <string name="volummin">0</string>
+    <string name="volummax">100</string>
+     <string name="volumChange">Звук</string>
+        <string name="turnThree">Режим 3D</string> 
+        <string name="fontSong">SongTi</string>
+         <string name="NoFuntion">Извините, функция обрабатывается!</string>
+         <string name="AdvancedSetTip">Суб и дор.</string>
+         <string name="AdvancedSet">Установка субтитров и аудио дорожки</string>
+         	<string name="subtitle">Субтитры</string>
+         	<string name="subtitle_begin">Субтитры</string>
+         	<string name="audioTrack_begin">Аудио дорожка</string>
+	<string name="audioTrack">Аудио" "Дорожка</string>
+	<string name="default_sub">Нет</string>
+	<string name="default_track">Ошибка</string>
+	<string name="Tips">Подсказка</string>
+	<string name="DefaultTime">00:00</string>
+    <string name="asking">вопрос</string>
+	<string name="image">Предустановки изоброжение</string>
+	<string name="back_light">Подсветка:</string>
+	<string name="natural_light">Натуралный:</string>
+	<string name="natural_light_open">Открыто</string>
+	<string name="natural_light_close">Закрыть</string>
+	<string name="videonothreeD">К сожалению, данный файл мультимедиа невозможно воспроизвести в режиме 3D!</string>
+	<string name="videofuctionnothreeD">К сожалению, данный режим несовместим с 3D!</string>
+	<string name="isThreeD_mode_on">Включен режим 3D, откройте настройки 3D!</string>
+	<string name="audiotrack_iszero">У данного файла мультимедиа нет звуковой дорожки!</string>
+    <string name="video_info">Данные о видеоролике</string>
+	<string name="video_name">Название:</string>
+	<string name="video_code">Кодировка видео:</string>
+	<string name="video_rate">Скорость передачи видеосигнала:</string>
+	<string name="video_duration">Длительность:</string>
+	<string name="video_resolution">Разрешение:</string>
+	<string name="video_size">Размер:</string>
+    <string name="video_share">доля</string>
+    <string name="videotrack_iszero">В этом медиа-файле нет видео дорожки!</string>
+	<string name="already_first_files">в настоящее время уже первых средств массовой информации.</string>
+	<string name="already_last_files">в настоящее время уже последние средства массовой информации.</string>
+	<string name="voiceassistkeypressdisable">Not support voice control</string>
+	<string name="four_k_video_notshare">4k видео временно не в состоянии поддерживать обмен.</string>
+    <string name="audio_only">Только аудио</string>
+	<string name="audio_info">Аудио информация</string>
+	<string name="play_mode">Игровой режим</string>
+    <string name="play_pic_mode">Режим экрана</string>
+	<string name="video_standard">Стандарт</string>
+	<string name="video_dynamic">Динамический</string>
+	<string name="video_studio">Студия</string>
+	<string name="video_movie">Фильм</string>
+	<string name="video_personal">Личный</string>
+	<string name="video_date">дата:</string>
+				
+</resources>

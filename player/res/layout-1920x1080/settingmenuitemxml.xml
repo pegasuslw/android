@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="655px"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+    <RelativeLayout 
+        android:id="@+id/lyofsettingitem"
+        android:layout_width="fill_parent"
+        android:layout_height="80px"
+        
+        >
+        <com.tcl.common.mediaplayer.utils.TypefaceTextView 
+        android:id="@+id/xmlmenuname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="43px"
+        android:paddingBottom="10px"
+        android:textSize="35px"
+        android:layout_centerVertical="true"
+        android:textColor="@drawable/setting_itemtextcolor_selector_1"
+        />
+       <com.tcl.common.mediaplayer.utils.TypefaceTextView 
+        android:id="@+id/xmlmenuvalue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10px"
+        android:textSize="35px"
+        android:layout_toLeftOf="@+id/tippic"
+        android:layout_centerVertical="true"
+        android:textColor="@drawable/setting_itemtextcolor_selector_1"
+        
+        />
+        <ImageView
+         android:id="@+id/tippic"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:src="@drawable/list_item_arrow_selector"
+         android:layout_marginLeft="21px"
+         android:layout_alignParentRight="true"
+         android:layout_marginRight="25px"
+         android:layout_centerVertical="true"
+         />
+        
+    </RelativeLayout>
+    
+    
+</LinearLayout>

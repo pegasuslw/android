@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="669px"
+    android:layout_height="match_parent"
+    android:layout_gravity="right"
+    android:background="@drawable/bg_filelist"
+    android:orientation="vertical" >
+    <ListView 
+        android:id="@+id/filelistly"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:listSelector="@drawable/filelistitemfocusnone"
+        android:layout_marginLeft="14px"
+        android:layout_marginTop="50px"
+        android:layout_marginBottom="50px"
+        android:scrollbars="none"
+       android:dividerHeight="22px"
+        ></ListView>
+    <ImageView 
+        android:id="@+id/itemfocus"
+        android:layout_width="655px"
+        android:layout_height="113px"
+        android:src="@drawable/filelistitemfocus"
+        android:layout_marginTop="50px"
+        android:layout_marginLeft="14px"
+        android:scaleType="fitXY"
+        />
+</FrameLayout>

@@ -1,0 +1,605 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/transparent" >
+
+    <SurfaceView
+        android:id="@+id/video_subtitle_surface"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:src="@android:color/transparent" >
+
+        <!-- android:background="@android:color/transparent" > -->
+
+    </SurfaceView>
+
+    <SurfaceView
+        android:id="@+id/surfaceView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center"
+         android:background="@android:color/transparent" >
+    </SurfaceView>
+
+    <LinearLayout
+        android:id="@+id/player_pause_icon_video"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="856px"
+        android:layout_marginTop="320px"
+        android:orientation="vertical"
+        android:visibility="invisible" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/video_pause_icon" />
+
+        <com.tcl.common.mediaplayer.utils.TypefaceTextView
+            android:id="@+id/player_pause_time"
+            android:layout_width="300px"
+            android:layout_height="45px"
+            android:layout_marginTop="22px"
+            android:textColor="@android:color/white"
+            android:gravity="center"
+            android:textSize="30px" 
+            android:visibility="invisible"
+            />
+    </LinearLayout>
+
+    <!-- >[S:]volum informaion< -->
+
+    <LinearLayout
+        android:id="@+id/volumInfor_video"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_marginBottom="60px"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <LinearLayout
+            android:id="@+id/volumText_video"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <com.tcl.common.mediaplayer.utils.TypefaceTextView
+                android:id="@+id/volumTitle_video"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/volumChange"
+                android:textColor="@color/white"
+                android:textSize="37px" />
+
+            <com.tcl.common.mediaplayer.utils.TypefaceTextView
+                android:id="@+id/volumMinNum_video"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="340px"
+                android:gravity="center"
+                android:text="@string/volummin"
+                android:textColor="@color/white"
+                android:textSize="37px" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/volumPrompt_video"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15px"
+            android:orientation="horizontal" >
+
+            <ProgressBar
+                android:id="@+id/volumProgress_video"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="1050px"
+                android:layout_height="wrap_content"
+                android:max="100"
+                android:progressDrawable="@drawable/progressbar" />
+        </LinearLayout>
+    </LinearLayout>
+    <!-- >[E:]volum informaion< -->
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="180px" >
+
+        <com.tcl.common.mediaplayer.utils.TypefaceTextView
+            android:id="@+id/video_subtitle_text"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:textColor="#ffffff"
+            android:textSize="55px" >
+        </com.tcl.common.mediaplayer.utils.TypefaceTextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center"
+        android:gravity="bottom|center_horizontal"
+        android:orientation="vertical" 
+        android:background="@drawable/buttom_hide_pic"
+        android:id="@+id/player_progress_layout">
+      
+        <LinearLayout 
+           android:id="@+id/progressbar_real"
+           android:layout_width="wrap_content"
+           android:layout_height="160px"
+           android:layout_marginBottom="50px"
+           android:gravity="center"
+           android:orientation="vertical" 
+            >
+             <android.tclwidget.TCLSeekBar
+              android:id="@+id/player_seekbar"
+              android:layout_width="1550px"
+              android:layout_height="wrap_content"
+              android:focusable="true"
+              android:max="1000" 
+               android:progressDrawable="@drawable/select_seekbar"
+                android:thumb="@drawable/seekbar_thumb"
+                />
+              <RelativeLayout 
+              android:id="@+id/textshowprogress"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+               >
+               <com.tcl.common.mediaplayer.utils.TypefaceTextView
+                android:id="@+id/player_begin_time"
+                android:layout_width="160px"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="@string/DefaultTime"
+                android:textSize="30px" 
+                android:layout_marginTop="5px"
+                android:layout_marginLeft="195px"
+                android:layout_alignParentLeft="true"/>        
+                <com.tcl.common.mediaplayer.utils.TypefaceTextView
+                 android:id="@+id/player_end_time"
+                 android:layout_width="160px"
+                 android:layout_marginTop="5px"
+                 android:layout_height="wrap_content"
+                 android:gravity="right"
+                 android:text="@string/DefaultTime"
+                 android:textSize="30px"
+                 android:layout_marginRight="195px"
+                 android:layout_alignParentRight="true" />
+                  
+            </RelativeLayout>   
+               
+       </LinearLayout>
+                     
+
+       
+           <!--  <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30px"
+            android:gravity="center_horizontal"
+            android:orientation="vertical" >
+            <LinearLayout
+                android:id="@+id/player_progress_layout"
+                android:layout_width="1765px"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_control_top"
+                android:gravity="center_horizontal"
+                android:orientation="vertical" >
+
+                <com.tcl.common.mediaplayer.utils.TypefaceTextView
+                    android:id="@+id/player_video_name"
+                    style="@style/TextViewMiddleWhite"
+                    android:layout_width="900px"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:ellipsize="marquee"
+                    android:gravity="center_horizontal"
+                    android:singleLine="true" 
+                    android:visibility="invisible"/>
+
+                <LinearLayout
+                    android:layout_width="1580px"
+                    android:layout_height="50px"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal" >
+
+                    
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout> -->
+
+       <!-- <LinearLayout
+            android:id="@+id/player_control_layout"
+            android:layout_width="1765px"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_control_bottom"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:visibility="gone" >
+
+            <FrameLayout
+                android:id="@+id/player_share"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5px"
+                android:background="@drawable/player_share_selector"
+                android:clickable="true"
+                android:focusable="true" >
+
+                <com.tcl.common.mediaplayer.utils.TypefaceTextView
+                    android:id="@+id/player_share_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom|center_horizontal"
+                    android:layout_marginBottom="30px"
+                    android:text="@string/video_share"
+                    android:textColor="#ebebeb"
+                    android:textSize="24px" >
+                </com.tcl.common.mediaplayer.utils.TypefaceTextView>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right|center_vertical"
+                    android:background="@drawable/control_devider_line" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/player_start"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/player_pause_selector"
+                android:clickable="true"
+                android:focusable="true" >
+
+                <com.tcl.common.mediaplayer.utils.TypefaceTextView
+                    android:id="@+id/player_start_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom|center_horizontal"
+                    android:layout_marginBottom="30px"
+                    android:text="@string/Video_Info_Play"
+                    android:textColor="#ebebeb"
+                    android:textSize="24px" >
+                </com.tcl.common.mediaplayer.utils.TypefaceTextView>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right|center_vertical"
+                    android:background="@drawable/control_devider_line" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/player_previous"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/player_previous_selector"
+                android:clickable="true"
+                android:focusable="true" >
+
+                <com.tcl.common.mediaplayer.utils.TypefaceTextView
+                    android:id="@+id/player_previous_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom|center_horizontal"
+                    android:layout_marginBottom="30px"
+                    android:text="@string/Video_Info_Last_Film"
+                    android:textColor="#ebebeb"
+                    android:textSize="24px" >
+                </com.tcl.common.mediaplayer.utils.TypefaceTextView>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right|center_vertical"
+                    android:background="@drawable/control_devider_line" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/player_next"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/player_next_selector"
+                android:clickable="true"
+                android:focusable="true" >
+
+                <com.tcl.common.mediaplayer.utils.TypefaceTextView
+                    android:id="@+id/player_next_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom|center_horizontal"
+                    android:layout_marginBottom="30px"
+                    android:text="@string/Video_Info_Next_Film"
+                    android:textColor="#ebebeb"
+                    android:textSize="24px" >
+                </com.tcl.common.mediaplayer.utils.TypefaceTextView>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right|center_vertical"
+                    android:background="@drawable/control_devider_line" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/player_sequence"
+                android:layout_width="196px"
+                android:layout_height="wrap_content"
+                android:background="@drawable/player_seqence_selector"
+                android:clickable="true"
+                android:focusable="true" >
+
+                <com.tcl.common.mediaplayer.utils.TypefaceTextView
+                    android:id="@+id/player_sequence_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom|center_horizontal"
+                    android:layout_marginBottom="30px"
+                    android:text="@string/Video_Info_RepeatMode_Normal"
+                    android:textColor="#ebebeb"
+                    android:textSize="24px" >
+                </com.tcl.common.mediaplayer.utils.TypefaceTextView>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right|center_vertical"
+                    android:background="@drawable/control_devider_line" />
+            </FrameLayout>
+
+            <ImageButton
+                android:id="@+id/player_volume"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/player_volume_selector"
+                android:visibility="gone" />
+
+            <ImageButton
+                android:id="@+id/player_save"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/player_save_selector"
+                android:visibility="gone" />
+
+            <FrameLayout
+                android:id="@+id/player_turn3d"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/player_3d_selector"
+                android:clickable="true"
+                android:focusable="true"
+                android:visibility="gone" >
+
+                <com.tcl.common.mediaplayer.utils.TypefaceTextView
+                    android:id="@+id/player_turn3d_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom|center_horizontal"
+                    android:layout_marginBottom="30px"
+                    android:text="@string/turnThree"
+                    android:textColor="#ebebeb"
+                    android:textSize="24px" >
+                </com.tcl.common.mediaplayer.utils.TypefaceTextView>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right|center_vertical"
+                    android:background="@drawable/control_devider_line" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/player_advance"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/player_advance_selector"
+                android:clickable="true"
+                android:focusable="true" >
+
+                <com.tcl.common.mediaplayer.utils.TypefaceTextView
+                    android:id="@+id/player_advance_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom|center_horizontal"
+                    android:layout_marginBottom="30px"
+                    android:text="@string/AdvancedSetTip"
+                    android:textColor="#ebebeb"
+                    android:textSize="24px" >
+                </com.tcl.common.mediaplayer.utils.TypefaceTextView>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right|center_vertical"
+                    android:background="@drawable/control_devider_line" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/player_info"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/player_info_selector"
+                android:clickable="true"
+                android:focusable="true" >
+
+                <com.tcl.common.mediaplayer.utils.TypefaceTextView
+                    android:id="@+id/player_info_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom|center_horizontal"
+                    android:layout_marginBottom="30px"
+                    android:text="@string/Video_Info_detail"
+                    android:textColor="#ebebeb"
+                    android:textSize="24px" >
+                </com.tcl.common.mediaplayer.utils.TypefaceTextView>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right|center_vertical"
+                    android:background="@drawable/control_devider_line" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/player_setimage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/player_background_selector"
+                android:clickable="true"
+                android:focusable="true" >
+
+                <com.tcl.common.mediaplayer.utils.TypefaceTextView
+                    android:id="@+id/player_setimage_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom|center_horizontal"
+                    android:layout_marginBottom="30px"
+                    android:text="@string/image"
+                    android:textColor="#ebebeb"
+                    android:textSize="24px" >
+                </com.tcl.common.mediaplayer.utils.TypefaceTextView>
+            </FrameLayout>
+        </LinearLayout> -->
+    </LinearLayout>
+
+<!--     <ImageView -->
+<!--         android:id="@+id/ddpicon_show" -->
+<!--         android:layout_width="wrap_content" -->
+<!--         android:layout_height="wrap_content" -->
+<!--         android:layout_gravity="top|left" -->
+<!--         android:layout_marginLeft="25px" -->
+<!--         android:layout_marginTop="60px" -->
+<!--         android:background="@drawable/ddpicon" -->
+<!--         android:visibility="visible" > -->
+<!--     </ImageView> -->
+
+<!--     <ImageView -->
+<!--         android:id="@+id/ddpicon_show" -->
+<!--         android:layout_width="wrap_content" -->
+<!--         android:layout_height="wrap_content" -->
+<!--         android:layout_gravity="top|right" -->
+<!--         android:layout_marginRight="25px" -->
+<!--         android:layout_marginTop="60px" -->
+<!--         android:background="@drawable/ddpicon" -->
+<!--         android:visibility="invisible" > -->
+<LinearLayout
+        android:id="@+id/dts_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" 
+        android:layout_gravity="top|right"
+        android:layout_marginRight="25px"
+        android:layout_marginTop="60px"
+         android:padding="35px"
+        android:background="@drawable/dts_background"
+        android:visibility="invisible">
+
+        <ImageView
+            android:id="@+id/dts_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/dts_hp_icon"
+             >
+        </ImageView>
+
+        <TextView
+            android:id="@+id/dts_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="85px"
+            android:text="@string/dts_master_audio"
+            android:textColor="#ffffffff" />
+    </LinearLayout>
+
+    <FrameLayout 
+        android:id="@+id/tip_upper_ly"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/up_hide_pic"
+        android:visibility="invisible"
+        >
+<!--         <com.tcl.common.mediaplayer.utils.ScrollingTextView
+        android:id="@+id/medianame"
+        android:layout_width="600px"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="79px"
+        android:layout_marginTop="47px"
+        android:textColor="#ffffffff"
+        android:textSize="40px"
+        android:singleLine="true"
+        android:ellipsize="marquee"
+        android:focusable="true"
+        ></com.tcl.common.mediaplayer.utils.ScrollingTextView> -->
+       <com.tcl.common.mediaplayer.utils.TypefaceTextView
+        android:id="@+id/medianame"
+        android:layout_width="1000px"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="79px"
+        android:layout_marginTop="47px"
+        android:textColor="#ffffffff"
+        android:textSize="40px"
+        android:singleLine="true"
+        android:ellipsize="end"
+        android:focusable="true"
+        ></com.tcl.common.mediaplayer.utils.TypefaceTextView>
+    <LinearLayout 
+        android:id="@+id/guidetextly"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="56px"
+        android:layout_marginLeft="1166px"
+        android:orientation="horizontal"
+        >
+        <ImageView 
+            android:id="@+id/keydownicon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10px"
+            android:src="@drawable/keydownicon"
+            />
+        <com.tcl.common.mediaplayer.utils.TypefaceTextView 
+            android:id="@+id/keydowntext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/presskeydowntext"
+            android:textColor="#ffc5c7d0"
+            android:textSize="28px"
+            android:layout_marginLeft="11px"
+            />
+        <ImageView 
+            android:id="@+id/keymenuiconshow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10px"
+            android:layout_marginLeft="77px"
+            android:src="@drawable/menuicon"
+            />
+        <com.tcl.common.mediaplayer.utils.TypefaceTextView 
+            android:id="@+id/keymenutext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/presskeymenutext"
+            android:textColor="#ffc5c7d0"
+            android:textSize="28px"
+            android:layout_marginLeft="11px"
+            />
+        
+    </LinearLayout>
+    </FrameLayout>
+   <!--  <ImageView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/hidepicupper"
+        android:src="@drawable/up_hide_pic"
+        /> -->
+    
+
+</FrameLayout>

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="hello">Hello World, MediaPlayer!</string>
+	<string name="app_name">媒體播放器</string>
+
+	<string name="video_volume_adjust">音量調節</string>
+	<string name="audio_info_disc">所屬專輯：</string>
+	<string name="audio_info_songster">歌手：</string>
+	<string name="audio_info_genor">流派：</string>
+	<string name="audio_info_unknown">未知</string>
+
+	<string name="audio_info_no_lylic">未找到歌詞</string>
+
+	<string name="media_source_not_found">無法獲取媒體資源文件</string>
+
+	<string name="unknown_media_format">不支持該媒體文件格式</string>
+
+	<string name="unknown_audio_format">該媒體文件音頻格式暫時無法支持</string>
+
+	<string name="unknown_video_format">該媒體文件視頻格式暫時無法支持</string>
+	
+	<string name="media_interrupt">對不起，此片源無法播放！</string>
+	
+	<string name="media_player_network_slow">網絡加載超時</string>
+<string name="media_player_exception">對不起，此片源無法播放！</string>
+<string name="media_player_init_error">對不起，此片源無法播放！</string>
+	<string name="media_player_unknown_exception">對不起，此片源無法播放！</string>
+	<string name="media_player_timeout">從網絡獲取數據超時，請檢查您的網絡</string>
+	<string name="media_player_netUnausable">網絡不可用，請檢查您的網絡</string>
+	<string name="media_player_netUsable">網絡已經連接！</string>
+	<string name="media_player_timeout_local">獲取數據超時，請檢查您的設備後重試</string>
+
+	<string name="media_player_listNull">播放列表為空，請重新選擇播放文件！</string>
+	  <string name="media_player_not_seekable">此文件不支持快進快退！ </string>
+	<string name="music_service_started">Music Service started</string>
+	<string name="local_service_label">Local Music Service</string>
+
+	<string name="Video_Info_Play">播放</string>
+	<string name="Video_Info_Pause">暫停</string>
+	<string name="Video_Info_Rewind_30S">快退</string>
+	<string name="Video_Info_FastForward_30S">快進</string>
+	<string name="Video_Info_Last_Film">上一集</string>
+	<string name="Video_Info_Next_Film">下一集</string>
+	<string name="Video_Info_RepeatMode_Normal">順序播放</string>
+	<string name="Video_Info_RepeatMode_Single">單集播放</string>
+	<string name="Video_Info_RepeatMode_Re_all">循環播放</string>
+	<string name="Video_Info_RepeatMode_Re_one">單集循環</string>
+	<string name="Video_Info_RepeatMode_Random">隨機播放</string>
+	<string name="Video_Info_Volume_adjust">音量調節</string>
+	<string name="Video_Info_Favorite">收藏</string>
+	<string name="Video_Info_Cancel_favorite">取消收藏</string>
+	<string name="Video_Info_return">返回</string>
+	<string name="Video_Info_detail">詳情</string>
+
+	<string name="Audio_Info_Play">播放</string>
+	<string name="Audio_Info_Pause">暫停</string>
+	<string name="Audio_Info_Rewind_FiveS">快退</string>
+	<string name="Audio_Info_FastForward_FiveS">快進</string>
+	<string name="Audio_Info_Last_Film">上一曲</string>
+	<string name="Audio_Info_Next_Film">下一曲</string>
+	<string name="Audio_Info_RepeatMode_Normal">順序播放</string>
+	<string name="Audio_Info_RepeatMode_Single">單曲播放</string>
+	<string name="Audio_Info_RepeatMode_Re_all">循環播放</string>
+	<string name="Audio_Info_RepeatMode_Re_one">單曲循環</string>
+	<string name="Audio_Info_RepeatMode_Random">隨機播放</string>
+	<string name="Audio_Info_Volume_adjust">音量調節</string>
+	<string name="Audio_Info_Lyc">顯示歌詞</string>
+	<string name="Audio_Info_Cancel_Lyc">取消歌詞</string>
+	<string name="Audio_Info_return">返回</string>
+
+	<string name="play_break">斷點播放</string>
+	<string name="play_begin">重新播放</string>
+	<string name="play_pos_select">選擇開始播放的位置</string>
+	<string name="SIS_Cancel">取消</string>
+	<string name="SIS_ok">確定</string>
+	<string name="breakfrom">從上一次播放的斷點處（</string>
+	<string name="breakto">）開始播放還是重新播放？</string>
+	
+	    <string name="volumadd">+</string>
+    <string name="volumminuse">-</string>
+        <string name="volummin">0</string>
+    <string name="volummax">100</string>
+     <string name="volumChange">音量調節</string>
+        <string name="turnThree">3D模式</string> 
+        <string name="fontSong">SongTi</string>
+         <string name="NoFuntion">對不起，此功能正在開發中！</string>
+         <string name="AdvancedSetTip">字幕音軌</string>
+         <string name="AdvancedSet">字幕音軌設置</string>
+         	<string name="subtitle">字"　　"幕：</string>
+         	<string name="subtitle_begin">字幕</string>
+         	<string name="audioTrack_begin">音軌</string>
+	<string name="audioTrack">音"　　"軌：</string>
+	<string name="default_sub">無</string>
+	<string name="default_track">默認</string>
+	<string name="Tips">提示</string>
+	<string name="DefaultTime">00:00</string>
+	  <string name="asking">詢問</string>
+	<string name="image">設置</string>
+	<string name="back_light">背光:</string>
+	<string name="natural_light">自然光:</string>
+	<string name="natural_light_open">打開</string>
+	<string name="natural_light_close">關閉</string>
+	<string name="videonothreeD">對不起，該片源不支持3D模式設置！</string>
+	<string name="videofuctionnothreeD">對不起，該模式下無法進行3D模式設置！</string>
+	<string name="isThreeD_mode_on">已打開3D功能，請進入3D設置！</string>
+	<string name="audiotrack_iszero">該視頻文件中沒有音頻內容</string>
+    <string name="video_info">視頻信息</string>
+	<string name="video_name">片名：</string>
+	<string name="video_code">格式：</string>
+	<string name="video_rate">碼率：</string>
+	<string name="video_duration">時長：</string>
+	<string name="video_resolution">分辨率：</string>
+	<string name="video_size">大小:</string>
+    <string name="video_share">分享</string>
+    <string name="videotrack_iszero">該視頻檔案中沒有視頻內容！</string>
+	<string name="already_first_files">當前播放已經是第一個</string>
+	<string name="already_last_files">當前播放已經是最後一個</string>
+	<string name="voiceassistkeypressdisable">此場景不支持語音鍵</string>
+	<string name="four_k_video_notshare">4K視頻暫時無法支持分享</string>
+
+				
+</resources>
